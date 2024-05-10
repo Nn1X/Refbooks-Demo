@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>OnkIgh</type>
+    <version>1.1</version>
+    <date>14.11.2019</date>
+  </zglv>
+  <zap>
+    <ID_Igh>1</ID_Igh>
+    <KOD_Igh>НЕR2</KOD_Igh>
+    <Igh_NAME>Уровень экспрессии белка HER2</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>2</ID_Igh>
+    <KOD_Igh>BRAF</KOD_Igh>
+    <Igh_NAME>Наличие мутаций в гене BRAF</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>3</ID_Igh>
+    <KOD_Igh>c-Kit</KOD_Igh>
+    <Igh_NAME>Наличие мутаций в гене c-Kit</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>4</ID_Igh>
+    <KOD_Igh>RAS</KOD_Igh>
+    <Igh_NAME>Наличие мутаций в гене RAS</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>5</ID_Igh>
+    <KOD_Igh>EGFR</KOD_Igh>
+    <Igh_NAME>Наличие мутаций в гене EGFR</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>6</ID_Igh>
+    <KOD_Igh>ALK/ROS1</KOD_Igh>
+    <Igh_NAME>Наличие транслокации в генах ALK или ROS1</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>7</ID_Igh>
+    <KOD_Igh>PD-L1</KOD_Igh>
+    <Igh_NAME>Уровень экспрессии белка PD-L1</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>8</ID_Igh>
+    <KOD_Igh>Рецепторы эстрогена</KOD_Igh>
+    <Igh_NAME>Наличие рецепторов к эстрогенам</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>9</ID_Igh>
+    <KOD_Igh>Рецепторы прогестерона</KOD_Igh>
+    <Igh_NAME>Наличие рецепторов к прогестерону</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>10</ID_Igh>
+    <KOD_Igh>Ki-67</KOD_Igh>
+    <Igh_NAME>Определение индекса пролиферативной активности экспрессии Ki-67</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Igh>11</ID_Igh>
+    <KOD_Igh>НЕR2</KOD_Igh>
+    <Igh_NAME>Уровень экспрессии белка HER2</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND>30.11.2019</DATEEND>
+  </zap>
+  <zap>
+    <ID_Igh>12</ID_Igh>
+    <KOD_Igh>BRCA</KOD_Igh>
+    <Igh_NAME>Наличие мутаций в генах BRCA</Igh_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

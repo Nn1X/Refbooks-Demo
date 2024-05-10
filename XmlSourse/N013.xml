@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>OnkLech</type>
+    <version>1.3</version>
+    <date>13.12.2018</date>
+  </zglv>
+  <zap>
+    <ID_TLech>1</ID_TLech>
+    <TLech_NAME>Хирургическое лечение</TLech_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TLech>2</ID_TLech>
+    <TLech_NAME>Лекарственная противоопухолевая терапия</TLech_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TLech>3</ID_TLech>
+    <TLech_NAME>Лучевая терапия</TLech_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TLech>4</ID_TLech>
+    <TLech_NAME>Химиолучевая терапия</TLech_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TLech>5</ID_TLech>
+    <TLech_NAME>Неспецифическое лечение (осложнения противоопухолевой терапии, установка/замена порт системы (катетера), прочее)</TLech_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TLech>6</ID_TLech>
+    <TLech_NAME>Диагностика</TLech_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

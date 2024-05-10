@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>KVKAT</type>
+    <version>2.0</version>
+    <date>16.12.2017</date>
+  </zglv>
+  <zap>
+    <Kod>0</Kod>
+    <Opis>Нет ученой степени</Opis>
+    <DATEBEG>03.02.2014</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Высшая квалификационная категория</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Первая квалификационная категория</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Вторая квалификационная категория</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

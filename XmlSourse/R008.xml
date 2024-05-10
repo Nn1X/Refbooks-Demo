@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>GLMO</type>
+    <version>3.0</version>
+    <date>12.11.2019</date>
+  </zglv>
+  <zap>
+    <Kod>1.0</Kod>
+    <Opis>Головная</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND>31.05.2019</DATEEND>
+  </zap>
+  <zap>
+    <Kod>1.0</Kod>
+    <Opis>Головная организация, находящаяся на территории субъекта Российской Федерации</Opis>
+    <DATEBEG>01.06.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>1.1</Kod>
+    <Opis>Головная организация, находящаяся на территории иного субъекта Российской Федерации</Opis>
+    <DATEBEG>01.06.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2.0</Kod>
+    <Opis>Филиал</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND>31.05.2019</DATEEND>
+  </zap>
+  <zap>
+    <Kod>2.0</Kod>
+    <Opis>Филиал (представительство) медицинской организации, находящейся на территории субъекта Российской Федерации</Opis>
+    <DATEBEG>01.06.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2.1</Kod>
+    <Opis>Филиал (представительство) медицинской организации, находящейся на территории иного субъекта Российской Федерации</Opis>
+    <DATEBEG>01.06.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>FORM_EL</type>
+    <version>1.1</version>
+    <date>06.09.2019</date>
+  </zglv>
+  <zap>
+    <IDFORM>D</IDFORM>
+    <NAMFORM>Дата</NAMFORM>
+    <COMMENT>Формат даты ГГГГ-ММ-ДД</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDFORM>N</IDFORM>
+    <NAMFORM>Число</NAMFORM>
+    <COMMENT>В случае указания нецелочисленного значения указывается количество знаков до разделителя (в целочисленной части), символ используемого разделителя и количество десятичных знаков</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDFORM>S</IDFORM>
+    <NAMFORM>Составной элемент</NAMFORM>
+    <COMMENT>Описывается в структуре файла отдельно</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDFORM>T</IDFORM>
+    <NAMFORM>Текст</NAMFORM>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

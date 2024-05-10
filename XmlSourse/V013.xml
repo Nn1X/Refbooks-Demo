@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>KategZL</type>
+    <version>2.3</version>
+    <date>01.03.2022</date>
+  </zglv>
+  <zap>
+    <IDKAT>1</IDKAT>
+    <KATNAME>Работающий гражданин Российской Федерации</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>2</IDKAT>
+    <KATNAME>Работающий постоянно проживающий в Российской Федерации иностранный гражданин</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>3</IDKAT>
+    <KATNAME>Работающий временно проживающий в Российской Федерации иностранный гражданин</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>4</IDKAT>
+    <KATNAME>Работающее лицо без гражданства</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>5</IDKAT>
+    <KATNAME>Работающее лицо, имеющее право на медицинскую помощь в соответствии с Федеральным законом О беженцах</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>6</IDKAT>
+    <KATNAME>Неработающий гражданин Российской Федерации</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>7</IDKAT>
+    <KATNAME>Неработающий постоянно проживающий в Российской Федерации иностранный гражданин</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>8</IDKAT>
+    <KATNAME>Неработающий временно проживающий в Российской Федерации иностранный гражданин</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>9</IDKAT>
+    <KATNAME>Неработающее лицо без гражданства</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>10</IDKAT>
+    <KATNAME>Неработающее лицо, имеющее право на медицинскую помощь в соответствии с Федеральным законом О беженцах</KATNAME>
+    <DATEBEG>02.07.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>11</IDKAT>
+    <KATNAME>Временно пребывающий на территории Российской Федерации в соответствии с договором о Евразийском экономическом союзе, подписанным в г. Астане 29 мая 2014 г. (далее - договор о ЕАЭС) трудящийся иностранный гражданин государств - членов ЕАЭС</KATNAME>
+    <DATEBEG>01.01.2017</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>12</IDKAT>
+    <KATNAME>Член Коллегии Евразийской экономической Комиссии</KATNAME>
+    <DATEBEG>01.01.2017</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>13</IDKAT>
+    <KATNAME>Должностное лицо Евразийской экономической Комиссии</KATNAME>
+    <DATEBEG>01.01.2017</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>14</IDKAT>
+    <KATNAME>Сотрудник органа ЕАЭС, находящийся на территории Российской Федерации</KATNAME>
+    <DATEBEG>01.01.2017</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>15</IDKAT>
+    <KATNAME>Гражданин Российской Федерации, постоянно проживающий на территории Республики Абхазия</KATNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>16</IDKAT>
+    <KATNAME>Гражданин Российской Федерации, постоянно проживающий на территории Республики Южная Осетия</KATNAME>
+    <DATEBEG>01.08.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>17</IDKAT>
+    <KATNAME>Гражданин Российской Федерации, проживающий на территории Донецкой Народной Республики (ДНР)</KATNAME>
+    <DATEBEG>25.02.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDKAT>18</IDKAT>
+    <KATNAME>Гражданин Российской Федерации, проживающий на территории Луганской Народной Республики (ЛНР)</KATNAME>
+    <DATEBEG>25.02.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

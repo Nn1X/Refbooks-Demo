@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>OnkPrOt</type>
+    <version>1.2</version>
+    <date>19.11.2018</date>
+  </zglv>
+  <zap>
+    <ID_PrOt>0</ID_PrOt>
+    <PrOt_NAME>Отказ от проведения гистологического исследования</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>1</ID_PrOt>
+    <PrOt_NAME>Противопоказания к проведению хирургического лечения</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>2</ID_PrOt>
+    <PrOt_NAME>Противопоказания к проведению химиотерапевтического лечения</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>3</ID_PrOt>
+    <PrOt_NAME>Противопоказания к проведению лучевой терапии</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>4</ID_PrOt>
+    <PrOt_NAME>Отказ от проведения хирургического лечения</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>5</ID_PrOt>
+    <PrOt_NAME>Отказ от проведения химиотерапевтического лечения</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>6</ID_PrOt>
+    <PrOt_NAME>Отказ от проведения лучевой терапии</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>7</ID_PrOt>
+    <PrOt_NAME>Гистологическое подтверждение диагноза не показано</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_PrOt>8</ID_PrOt>
+    <PrOt_NAME>Противопоказания к проведению гистологического исследования</PrOt_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

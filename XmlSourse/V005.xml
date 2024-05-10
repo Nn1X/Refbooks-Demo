@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>Pol</type>
+    <version>3.0</version>
+    <date>30.03.2018</date>
+  </zglv>
+  <zap>
+    <IDPOL>1</IDPOL>
+    <POLNAME>Мужской</POLNAME>
+  </zap>
+  <zap>
+    <IDPOL>2</IDPOL>
+    <POLNAME>Женский</POLNAME>
+  </zap>
+</packet>

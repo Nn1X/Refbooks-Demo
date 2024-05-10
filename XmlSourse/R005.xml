@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>ISKSMO</type>
+    <version>2.0</version>
+    <date>15.12.2017</date>
+  </zglv>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Приостановление, ограничение, отзыв либо прекращение действия лицензии</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Ликвидация страховой медицинской организации</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Досрочное расторжение договора о финансовом обеспечении ОМС</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>4</Kod>
+    <Opis>Отказ СМО (филиала) от заключения договора о финансовом обеспечении ОМС</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>5</Kod>
+    <Opis>По уведомлению об исключении из реестра СМО</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>6</Kod>
+    <Opis>Непредставление уведомления и документов в срок, установленный частью 10 статьи 14 Федерального закона</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>7</Kod>
+    <Opis>Реорганизация в форме присоединения (объединения) к другой СМО</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>8</Kod>
+    <Opis>Иные причины</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

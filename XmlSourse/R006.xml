@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>ISKMO</type>
+    <version>2.1</version>
+    <date>04.10.2022</date>
+  </zglv>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Утрата (приостановление либо прекращение) права на осуществление медицинской деятельности</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Ликвидация медицинской организации</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Банкротство медицинской организации</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>4</Kod>
+    <Opis>Иные причины, предусмотренные законодательством Российской Федерации</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>5</Kod>
+    <Opis>Реорганизация в форме присоединения (объединения) к другой МО</Opis>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>6</Kod>
+    <Opis>Истечение срока реализации территориальной программы</Opis>
+    <DATEBEG>01.07.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

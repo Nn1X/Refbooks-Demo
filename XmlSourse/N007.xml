@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>OnkMrf</type>
+    <version>1.1</version>
+    <date>13.08.2018</date>
+  </zglv>
+  <zap>
+    <ID_Mrf>1</ID_Mrf>
+    <Mrf_NAME>Гистологический тип опухоли</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>2</ID_Mrf>
+    <Mrf_NAME>Гистологический тип клеток</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>3</ID_Mrf>
+    <Mrf_NAME>Степень дифференцировки ткани опухоли</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>4</ID_Mrf>
+    <Mrf_NAME>Гистологический тип клеток</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>5</ID_Mrf>
+    <Mrf_NAME>Гистологический тип опухоли</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>6</ID_Mrf>
+    <Mrf_NAME>Гистологический тип опухоли</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>7</ID_Mrf>
+    <Mrf_NAME>Гистологический тип клеток</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>8</ID_Mrf>
+    <Mrf_NAME>Гистологический тип клеток</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>9</ID_Mrf>
+    <Mrf_NAME>Гистологический тип опухоли</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_Mrf>10</ID_Mrf>
+    <Mrf_NAME>Гистологический тип опухоли</Mrf_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

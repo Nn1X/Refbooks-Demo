@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>Sposob</type>
+    <version>2.1</version>
+    <date>11.01.2019</date>
+  </zglv>
+  <zap>
+    <IDSP>1</IDSP>
+    <SPNAME>Посещение в поликлинике</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>24.01.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>2</IDSP>
+    <SPNAME>Оперативное вмешательство</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>3</IDSP>
+    <SPNAME>Анестезиологическое пособие</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>4</IDSP>
+    <SPNAME>Лечебно-диагностическая процедура</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>5</IDSP>
+    <SPNAME>Койко-день в круглосуточном стационаре</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>6</IDSP>
+    <SPNAME>Койко-день в дневном стационаре больничного учреждения</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>7</IDSP>
+    <SPNAME>День лечения в дневном стационаре АПУ</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>8</IDSP>
+    <SPNAME>День лечения в стационаре на дому</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>9</IDSP>
+    <SPNAME>УЕТ в стоматологии</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>10</IDSP>
+    <SPNAME>Стандарт медицинской помощи в поликлинике</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>11</IDSP>
+    <SPNAME>Дополнительная диспансеризация</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>12</IDSP>
+    <SPNAME>Комплексная услуга центра здоровья</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>13</IDSP>
+    <SPNAME>Стандарт медицинской помощи в стационаре (включая ВМП)</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>14</IDSP>
+    <SPNAME>Лечение в профильном отделении стационара</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>15</IDSP>
+    <SPNAME>Стандарт скорой медицинской помощи</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>16</IDSP>
+    <SPNAME>Клинико-статистические  группы</SPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND>24.01.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>17</IDSP>
+    <SPNAME>Законченный случай в поликлинике</SPNAME>
+    <DATEBEG>04.10.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>18</IDSP>
+    <SPNAME>Законченный случай в круглосуточном стационаре</SPNAME>
+    <DATEBEG>04.10.2011</DATEBEG>
+    <DATEEND>24.01.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>19</IDSP>
+    <SPNAME>Законченный случай в дневном стационаре больничного учреждения</SPNAME>
+    <DATEBEG>04.10.2011</DATEBEG>
+    <DATEEND>24.01.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>20</IDSP>
+    <SPNAME>Законченный случай в дневном стационаре АПУ</SPNAME>
+    <DATEBEG>04.10.2011</DATEBEG>
+    <DATEEND>24.01.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>21</IDSP>
+    <SPNAME>Законченный случай в стационаре на дому</SPNAME>
+    <DATEBEG>04.10.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>22</IDSP>
+    <SPNAME>Посещение</SPNAME>
+    <DATEBEG>13.12.2011</DATEBEG>
+    <DATEEND>24.01.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>23</IDSP>
+    <SPNAME>Посещение на дому</SPNAME>
+    <DATEBEG>13.12.2011</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>24</IDSP>
+    <SPNAME>Вызов скорой медицинской помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>24</IDSP>
+    <SPNAME>За вызов скорой медицинской помощи</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>25</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за медицинскую услугу</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>25</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за единицу объема медицинской помощи</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>26</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за посещение</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>27</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за обращение (законченный случай)</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>28</IDSP>
+    <SPNAME>За медицинскую услугу в поликлинике</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>28</IDSP>
+    <SPNAME>За медицинскую услугу</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>29</IDSP>
+    <SPNAME>За посещение в поликлинике</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>29</IDSP>
+    <SPNAME>За посещение</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>30</IDSP>
+    <SPNAME>За обращение (законченный случай) в поликлинике</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>30</IDSP>
+    <SPNAME>За обращение (законченный случай)</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>31</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц с учетом показателей результативности деятельности медицинской организации, в том числе с включением расходов на медицинскую помощь, оказываемую в иных медицинских организациях</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>31</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц с учетом показателей результативности деятельности медицинской организации</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>32</IDSP>
+    <SPNAME>За законченный случай лечения заболевания при оплате медицинской помощи, оказанной в стационарных условиях</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>32</IDSP>
+    <SPNAME>За законченный случай лечения заболевания</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>33</IDSP>
+    <SPNAME>За законченный случай лечения заболевания, включенного в соответствующую группу заболеваний (в том числе клинико-статистические группы заболеваний) в стационарных условиях</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>33</IDSP>
+    <SPNAME>За законченный случай лечения заболевания, включенного в соответствующую группу заболеваний (в том числе клинико-статистические группы заболеваний)</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>34</IDSP>
+    <SPNAME>За законченный случай лечения заболевания при оплате медицинской помощи, оказанной в дневном стационаре</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>35</IDSP>
+    <SPNAME>По подушевому нормативу финансирования при оплате скорой медицинской помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>36</IDSP>
+    <SPNAME>По подушевому нормативу финансирования в сочетании с оплатой за вызов скорой медицинской помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDSP>37</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за медицинскую услугу в связи с оказанием неотложной помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>38</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за посещение в связи с оказанием неотложной помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>39</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся лиц в сочетании с оплатой за обращение (законченный случай) в связи с оказанием неотложной помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>40</IDSP>
+    <SPNAME>За медицинскую услугу в связи с оказанием неотложной помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>41</IDSP>
+    <SPNAME>За посещение в связи с оказанием неотложной помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>42</IDSP>
+    <SPNAME>За обращение (законченный случай) в связи с оказанием неотложной помощи</SPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>43</IDSP>
+    <SPNAME>За законченный случай лечения заболевания, включенного в соответствующую группу заболеваний (в том числе клинико-статистические группы заболеваний) в дневном стационаре</SPNAME>
+    <DATEBEG>01.01.2014</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDSP>44</IDSP>
+    <SPNAME>По подушевому нормативу финансирования на прикрепившихся к МО лиц, включая оплату медицинской помощи по всем видам и условиям предоставляемой МО медицинской помощи, с учетом показателей результативности деятельности медицинской организации</SPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>MZSPEC</type>
+    <version>1.3</version>
+    <date>20.12.2018</date>
+  </zglv>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Главный внештатный специалист терапевт-пульмонолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>06.03.2017</DATEEND>
+  </zap>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Главный внештатный специалист терапевт</Opis>
+    <DATEBEG>07.03.2017</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Главный внештатный специалист аллерголог-иммунолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Главный внештатный специалист кардиолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Главный внештатный специалист по аналитической и судебно-медицинской токсикологии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Главный внештатный специалист эндокринолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Главный внештатный специалист по анестезиологии-реаниматологии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>4</Kod>
+    <Opis>Главный внештатный специалист общей врачебной практики (семейный врач)</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>06.03.2017</DATEEND>
+  </zap>
+  <zap>
+    <Kod>4</Kod>
+    <Opis>Главный внештатный специалист пульмонолог)</Opis>
+    <DATEBEG>07.03.2017</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>4</Kod>
+    <Opis>Главный внештатный специалист по информационным системам в здравоохранении</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>5</Kod>
+    <Opis>Главный внештатный специалист нефролог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>5</Kod>
+    <Opis>Главный внештатный специалист гастроэнтеролог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>6</Kod>
+    <Opis>Главный внештатный специалист ревматолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>6</Kod>
+    <Opis>Главный внештатный специалист гематолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>7</Kod>
+    <Opis>Главный внештатный специалист гастроэнтеролог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>7</Kod>
+    <Opis>Главный внештатный специалист гериатр</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>8</Kod>
+    <Opis>Главный внештатный специалист аллерголог-иммунолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>8</Kod>
+    <Opis>Главный внештатный специалист по дерматовенерологии и косметологии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>9</Kod>
+    <Opis>Главный внештатный специалист профпатолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>9</Kod>
+    <Opis>Главный внештатный специалист диетолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>10</Kod>
+    <Opis>Главный внештатный специалист гематолог-трансфузиолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>10</Kod>
+    <Opis>Главный внештатный специалист по инфекционным болезням</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>11</Kod>
+    <Opis>Главный внештатный специалист по медицинской профилактике</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>11</Kod>
+    <Opis>Главный внештатный специалист кардиолог (Центрального, Уральского, Сибирского, Дальневосточного федерального округа)</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>12</Kod>
+    <Opis>Главный внештатный специалист по инфекционным болезням</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>12</Kod>
+    <Opis>Главный внештатный специалист кардиолог (Северо-Западного, Приволжского, Северо-Кавказского, Южного федерального округа)</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>13</Kod>
+    <Opis>Главный внештатный специалист по управлению сестринской деятельностью</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>13</Kod>
+    <Opis>Главный внештатный специалист аритмолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>14</Kod>
+    <Opis>Главный внештатный специалист по дерматовенерологии и косметологии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>14</Kod>
+    <Opis>Главный внештатный специалист клинический фармаколог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>15</Kod>
+    <Opis>Главный внештатный специалист невролог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>15</Kod>
+    <Opis>Главный внештатный специалист по клинической лабораторной диагностике</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>16</Kod>
+    <Opis>. Главный внештатный специалист торакальный хирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>16</Kod>
+    <Opis>Главный внештатный специалист по клинической микробиологии и антимикробной резистентности</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>17</Kod>
+    <Opis>Главный внештатный специалист хирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>17</Kod>
+    <Opis>Главный внештатный специалист колопроктолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>18</Kod>
+    <Opis>Главный внештатный специалист сердечно-сосудистый хирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>18</Kod>
+    <Opis>Главный внештатный специалист комбустиолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>19</Kod>
+    <Opis>Главный внештатный специалист травматолог-ортопед</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>19</Kod>
+    <Opis>Главный внештатный специалист по лучевой и инструментальной диагностике</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>20</Kod>
+    <Opis>Главный внештатный специалист уролог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>20</Kod>
+    <Opis>Главный внештатный специалист по медицине катастроф</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>21</Kod>
+    <Opis>Главный внештатный специалист нейрохирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>21</Kod>
+    <Opis>Главный внештатный специалист по медицинской профилактике</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>22</Kod>
+    <Opis>Главный внештатный специалист онколог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>22</Kod>
+    <Opis>Главный внештатный специалист по медицинской психологии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>23</Kod>
+    <Opis>Главный внештатный специалист оториноларинголог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>23</Kod>
+    <Opis>Главный внештатный специалист по медицинской реабилитации</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>24</Kod>
+    <Opis>Главный внештатный специалист офтальмолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>24</Kod>
+    <Opis>Главный внештатный специалист по медицинскому и фармацевтическому образованию</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>25</Kod>
+    <Opis>Главный внештатный специалист трансплантолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>25</Kod>
+    <Opis>Главный внештатный специалист невролог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>26</Kod>
+    <Opis>Главный внештатный специалист колопроктолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>26</Kod>
+    <Opis>Главный внештатный специалист нейрохирург</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>27</Kod>
+    <Opis>Главный внештатный специалист пластический хирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>27</Kod>
+    <Opis>Главный внештатный специалист нефролог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>28</Kod>
+    <Opis>Главный внештатный специалист по челюстно-лицевой хирургии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>28</Kod>
+    <Opis>Главный внештатный специалист онколог (Центрального, Северо-Западного, Южного, Северо-Кавказского федерального округа)</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>29</Kod>
+    <Opis>Главный внештатный специалист по анестезиологии-реаниматологии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>29</Kod>
+    <Opis>Главный внештатный специалист онколог (Приволжского, Уральского, Сибирского, Дальневосточного федерального округа)</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>30</Kod>
+    <Opis>Главный специалист по рентгенэндоваскулярным диагностике и лечению</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>30</Kod>
+    <Opis>Главный внештатный специалист по остеопатии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>31</Kod>
+    <Opis>Главный внештатный специалист по скорой медицинской помощи</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>31</Kod>
+    <Opis>Главный внештатный специалист оториноларинголог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>32</Kod>
+    <Opis>Главный внештатный специалист психиатр</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>32</Kod>
+    <Opis>Главный внештатный специалист офтальмолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>33</Kod>
+    <Opis>Главный внештатный специалист психиатр-нарколог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>33</Kod>
+    <Opis>Главный внештатный специалист по паллиативной помощи</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>34</Kod>
+    <Opis>Главный внештатный специалист токсиколог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>34</Kod>
+    <Opis>Главный внештатный специалист по патологической анатомии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>35</Kod>
+    <Opis>Главный внештатный специалист стоматолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>35</Kod>
+    <Opis>Главный внештатный специалист по первой помощи</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>36</Kod>
+    <Opis>Главный внештатный специалист по спортивной медицине</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>36</Kod>
+    <Opis>Главный внештатный специалист пластический хирург</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>37</Kod>
+    <Opis>Главный внештатный специалист клинический фармаколог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>37</Kod>
+    <Opis>Главный внештатный специалист по ВИЧ-инфекции</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>38</Kod>
+    <Opis>Главный внештатный специалист диетолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>38</Kod>
+    <Opis>Главный внештатный специалист профпатолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>39</Kod>
+    <Opis>Главный внештатный специалист по медицинской реабилитации</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>39</Kod>
+    <Opis>Главный внештатный специалист психиатр</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>40</Kod>
+    <Opis>Главный внештатный специалист по санаторно-курортному лечению</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>40</Kod>
+    <Opis>Главный внештатный специалист психиатр-нарколог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>41</Kod>
+    <Opis>Главный внештатный специалист по судебно-медицинской экспертизе</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>41</Kod>
+    <Opis>Главный внештатный специалист пульмонолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>42</Kod>
+    <Opis>Главный внештатный специалист по патологической анатомии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>42</Kod>
+    <Opis>Главный внештатный специалист радиолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>43</Kod>
+    <Opis>Главный внештатный специалист по клинической лабораторной диагностике</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>43</Kod>
+    <Opis>Главный внештатный специалист ревматолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>44</Kod>
+    <Opis>Главный внештатный специалист по лучевой и инструментальной диагностике</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>44</Kod>
+    <Opis>Главный внештатный специалист по рентгенэндоваскулярным диагностике и лечению</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>45</Kod>
+    <Opis>Главный внештатный специалист по медицинской генетике</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>45</Kod>
+    <Opis>Главный внештатный специалист по репродуктивному здоровью</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>46</Kod>
+    <Opis>Главный внештатный специалист по акушерству и гинекологии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>46</Kod>
+    <Opis>Главный внештатный специалист по санаторно-курортному лечению</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>47</Kod>
+    <Opis>. Главный внештатный специалист педиатр</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>47</Kod>
+    <Opis>Главный внештатный специалист сердечно-сосудистый хирург</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>48</Kod>
+    <Opis>Главный внештатный специалист неонатолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>48</Kod>
+    <Opis>Главный внештатный специалист по скорой медицинской помощи</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>49</Kod>
+    <Opis>Главный внештатный специалист по инфекционным болезням у детей</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>49</Kod>
+    <Opis>Главный внештатный специалист по спортивной медицине</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>50</Kod>
+    <Opis>Главный внештатный детский специалист кардиолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>50</Kod>
+    <Opis>Главный внештатный специалист стоматолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>51</Kod>
+    <Opis>Главный внештатный детский специалист эндокринолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>51</Kod>
+    <Opis>Главный внештатный специалист по судебно-медицинской экспертизе</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>52</Kod>
+    <Opis>Главный внештатный детский специалист невролог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>52</Kod>
+    <Opis>Главный внештатный специалист по терапии и общей врачебной практике</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>53</Kod>
+    <Opis>Главный внештатный детский специалист психиатр</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>53</Kod>
+    <Opis>Главный внештатный специалист токсиколог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>54</Kod>
+    <Opis>Главный внештатный детский специалист хирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>54</Kod>
+    <Opis>Главный внештатный специалист торакальный хирург</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>55</Kod>
+    <Opis>Главный внештатный детский специалист анестезиолог-реаниматолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>55</Kod>
+    <Opis>Главный внештатный специалист травматолог-ортопед</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>56</Kod>
+    <Opis>Главный внештатный детский специалист онколог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>56</Kod>
+    <Opis>Главный внештатный специалист трансплантолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>57</Kod>
+    <Opis>Главный внештатный специалист по профилактической стоматологии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>06.03.2017</DATEEND>
+  </zap>
+  <zap>
+    <Kod>57</Kod>
+    <Opis>Главный внештатный детский специалист стоматолог</Opis>
+    <DATEBEG>07.03.2017</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>57</Kod>
+    <Opis>Главный внештатный специалист трансфузиолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>58</Kod>
+    <Opis>Главный внештатный детский специалист офтальмолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>58</Kod>
+    <Opis>Главный внештатный специалист по управлению сестринской деятельностью</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>59</Kod>
+    <Opis>Главный внештатный детский специалист фтизиатр</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>59</Kod>
+    <Opis>Главный внештатный специалист уролог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>60</Kod>
+    <Opis>Главный внештатный специалист гинеколог детского и юношеского возраста</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>60</Kod>
+    <Opis>Главный внештатный специалист фтизиатр</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>61</Kod>
+    <Opis>Главный внештатный детский специалист гематолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>61</Kod>
+    <Opis>Главный внештатный специалист хирург и эндоскопист</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>62</Kod>
+    <Opis>Главный внештатный специалист по гигиене детей и подростков</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>62</Kod>
+    <Opis>Главный внештатный специалист по челюстно-лицевой хирургии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>63</Kod>
+    <Opis>Главный внештатный специалист эпидемиолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>63</Kod>
+    <Opis>Главный внештатный специалист эндокринолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>64</Kod>
+    <Opis>Главный внештатный специалист по проблемам диагностики и лечения ВИЧ-инфекции</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>64</Kod>
+    <Opis>Главный внештатный специалист эпидемиолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>65</Kod>
+    <Opis>Главный внештатный специалист по медицинскому и фармацевтическому образованию</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>65</Kod>
+    <Opis>Главный внештатный специалист по акушерству и гинекологии</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>66</Kod>
+    <Opis>Главный внештатный специалист по внедрению современных информационных систем в здравоохранении</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>66</Kod>
+    <Opis>Главный внештатный детский специалист анестезиолог-реаниматолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>67</Kod>
+    <Opis>Главный внештатный специалист по медицине катастроф</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>67</Kod>
+    <Opis>Главный внештатный специалист по гигиене детей и подростков</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>68</Kod>
+    <Opis>Главный внештатный специалист фтизиатр</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>68</Kod>
+    <Opis>Главный внештатный специалист гинеколог детского и юношеского возраста</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>69</Kod>
+    <Opis>Главный внештатный специалист по медицинской психологии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>69</Kod>
+    <Opis>Главный внештатный специалист по инфекционным болезням у детей</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>70</Kod>
+    <Opis>Главный внештатный специалист по аналитической и судебно-медицинской токсикологии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>70</Kod>
+    <Opis>Главный внештатный детский специалист кардиолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>71</Kod>
+    <Opis>Главный внештатный детский специалист по профилактической медицине</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>71</Kod>
+    <Opis>Главный внештатный специалист по медицинской генетике</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>72</Kod>
+    <Opis>Главный внештатный детский специалист по медицинской реабилитации</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>73</Kod>
+    <Opis>Главный внештатный детский специалист по медицинской реабилитации</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>73</Kod>
+    <Opis>Главный внештатный детский специалист невролог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>74</Kod>
+    <Opis>Главный внештатный специалист по паллиативной помощи</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>74</Kod>
+    <Opis>Главный внештатный детский специалист нейрохирург</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>75</Kod>
+    <Opis>Главный внештатный специалист по остеопатии</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>75</Kod>
+    <Opis>Главный внештатный специалист неонатолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>76</Kod>
+    <Opis>Главный внештатный специалист радиолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>76</Kod>
+    <Opis>Главный внештатный детский специалист онколог-гематолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>77</Kod>
+    <Opis>Главный внештатный специалист по репродуктивному здоровью</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>77</Kod>
+    <Opis>Главный внештатный детский специалист офтальмолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>78</Kod>
+    <Opis>Главный внештатный специалист по клинической микробиологии и антимикробной резистентности</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>78</Kod>
+    <Opis>Главный внештатный детский специалист по паллиативной медицинской помощи</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>79</Kod>
+    <Opis>Главный внештатный специалист гериатр</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>79</Kod>
+    <Opis>Главный внештатный специалист педиатр</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>80</Kod>
+    <Opis>Главный внештатный детский специалист ревматолог</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>80</Kod>
+    <Opis>Главный внештатный детский специалист по профилактической медицине</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>81</Kod>
+    <Opis>Главный внештатный детский специалист нейрохирург</Opis>
+    <DATEBEG>26.02.2016</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>81</Kod>
+    <Opis>Главный внештатный детский специалист психиатр</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>82</Kod>
+    <Opis>Главный внештатный специалист трансфузиолог</Opis>
+    <DATEBEG>07.03.2017</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>82</Kod>
+    <Opis>Главный внештатный детский специалист ревматолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>83</Kod>
+    <Opis>Главный внештатный специалист комбустиолог</Opis>
+    <DATEBEG>07.03.2017</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>83</Kod>
+    <Opis>Главный внештатный детский специалист стоматолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>84</Kod>
+    <Opis>Главный внештатный специалист кардиолог - аритмолог</Opis>
+    <DATEBEG>07.03.2017</DATEBEG>
+    <DATEEND>31.12.2018</DATEEND>
+  </zap>
+  <zap>
+    <Kod>84</Kod>
+    <Opis>Главный внештатный детский специалист фтизиатр</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>85</Kod>
+    <Opis>Главный внештатный детский специалист хирург</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>86</Kod>
+    <Opis>Главный внештатный детский специалист по медицинской помощи в образовательных организациях</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>87</Kod>
+    <Opis>Главный внештатный детский специалист эндокринолог</Opis>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

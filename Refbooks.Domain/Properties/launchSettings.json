@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Refbooks.Domain": {
+      "commandName": "Project"
+    }
+  }
+}

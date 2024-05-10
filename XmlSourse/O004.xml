@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>OKFS</type>
+    <version>2.1</version>
+    <date>30.12.2019</date>
+  </zglv>
+  <zap>
+    <KOD>10</KOD>
+    <NAME1>РОССИЙСКАЯ СОБСТВЕННОСТЬ</NAME1>
+    <ALG>11+14+15+16+17+18+19+61</ALG>
+    <NOMAKT>2.00000</NOMAKT>
+    <STATUS>2.00000</STATUS>
+    <DATEUTV>23.10.2009</DATEUTV>
+    <DATEVVED>01.01.2010</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>11</KOD>
+    <NAME1>Государственная собственность</NAME1>
+    <ALG>12+13</ALG>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>12</KOD>
+    <NAME1>Федеральная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>13</KOD>
+    <NAME1>Собственность субъектов Российской Федерации</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>14</KOD>
+    <NAME1>Муниципальная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>15</KOD>
+    <NAME1>Собственность общественных и религиозных организаций (объединений)</NAME1>
+    <ALG>50+51+52+53+54</ALG>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>16</KOD>
+    <NAME1>Частная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>17</KOD>
+    <NAME1>Смешанная российская собственность</NAME1>
+    <ALG>40+49</ALG>
+    <NOMAKT>1.00000</NOMAKT>
+    <STATUS>2.00000</STATUS>
+    <DATEUTV>20.09.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>18</KOD>
+    <NAME1>Собственность российских граждан, постоянно проживающих за границей</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>19</KOD>
+    <NAME1>Собственность потребительской кооперации</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>20</KOD>
+    <NAME1>ИНОСТРАННАЯ СОБСТВЕННОСТЬ</NAME1>
+    <ALG>21+22+23+24+27</ALG>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>21</KOD>
+    <NAME1>Собственность международных организаций</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>22</KOD>
+    <NAME1>Собственность иностранных государств</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>23</KOD>
+    <NAME1>Собственность иностранных юридических лиц</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>24</KOD>
+    <NAME1>Собственность иностранных граждан и лиц без гражданства</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>27</KOD>
+    <NAME1>Смешанная иностранная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>30</KOD>
+    <NAME1>СОВМЕСТНАЯ РОССИЙСКАЯ И ИНОСТРАННАЯ СОБСТВЕННОСТЬ</NAME1>
+    <ALG>31+32+33+34+35</ALG>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>31</KOD>
+    <NAME1>Совместная федеральная и иностранная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>32</KOD>
+    <NAME1>Совместная собственность субъектов Российской Федерации и иностранная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>33</KOD>
+    <NAME1>Совместная муниципальная и иностранная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>34</KOD>
+    <NAME1>Совместная частная и иностранная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>35</KOD>
+    <NAME1>Совместная собственность общественных и религиозных организаций (объединений) и иностранная собственность</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>40</KOD>
+    <NAME1>Смешанная российская собственность с долей государственной собственности</NAME1>
+    <ALG>41+42+43</ALG>
+    <NOMAKT>1.00000</NOMAKT>
+    <STATUS>3.00000</STATUS>
+    <DATEUTV>20.09.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>41</KOD>
+    <NAME1>Смешанная российская собственность с долей федеральной собственности</NAME1>
+    <ALG/>
+    <NOMAKT>1.00000</NOMAKT>
+    <STATUS>3.00000</STATUS>
+    <DATEUTV>20.09.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>42</KOD>
+    <NAME1>Смешанная российская собственность с долей собственности субъектов Российской Федерации</NAME1>
+    <ALG/>
+    <NOMAKT>1.00000</NOMAKT>
+    <STATUS>3.00000</STATUS>
+    <DATEUTV>20.09.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>43</KOD>
+    <NAME1>Смешанная российская собственность с долями федеральной собственности и собственности субъектов Российской Федерации</NAME1>
+    <ALG/>
+    <NOMAKT>1.00000</NOMAKT>
+    <STATUS>3.00000</STATUS>
+    <DATEUTV>20.09.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>49</KOD>
+    <NAME1>Иная смешанная российская собственность</NAME1>
+    <ALG/>
+    <NOMAKT>1.00000</NOMAKT>
+    <STATUS>3.00000</STATUS>
+    <DATEUTV>20.09.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>50</KOD>
+    <NAME1>Собственность благотворительных организаций</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>51</KOD>
+    <NAME1>Собственность политических общественных объединений</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>52</KOD>
+    <NAME1>Собственность профессиональных союзов</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>53</KOD>
+    <NAME1>Собственность общественных объединений</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>54</KOD>
+    <NAME1>Собственность религиозных объединений</NAME1>
+    <ALG/>
+    <NOMAKT>0.00000</NOMAKT>
+    <STATUS>0.00000</STATUS>
+    <DATEUTV>31.03.1999</DATEUTV>
+    <DATEVVED>01.01.2000</DATEVVED>
+  </zap>
+  <zap>
+    <KOD>61</KOD>
+    <NAME1>Собственность государственных корпораций</NAME1>
+    <ALG/>
+    <NOMAKT>2.00000</NOMAKT>
+    <STATUS>3.00000</STATUS>
+    <DATEUTV>23.10.2009</DATEUTV>
+    <DATEVVED>01.01.2010</DATEVVED>
+  </zap>
+</packet>

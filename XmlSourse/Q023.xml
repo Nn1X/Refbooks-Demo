@@ -1,0 +1,3201 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>MEK_MPR</type>
+    <version>2.72</version>
+    <date>14.07.2023</date>
+  </zglv>
+  <zap>
+    <ID_TEST>001F.09.3031</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Несоответствие профиля оказанной мед. помощи имеющимся лицензиям МО на право оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001F.70.1649</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Профиль медицинской помощи вычисляется на основании поданных полей реестра pos_prvs, usl, usl_ok,otdel, lpu, возраст(dr) на дату начала лечения (date_1),usl_prvs. 
+На основании данных, если значение профиля мед. помощи по справочнику v002 не действует в период лечения, то выдается ошибка.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>V</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001F.70.2099</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/KSG_KPG</ID_EL>
+    <DESC_TEST>Несоответствие лицензии профилю КСГ (стац) для онкологии и детской онкологии</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>V</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.20.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/POUH</ID_EL>
+    <DESC_TEST>Проверка признака наличия ухаживающего лица для определения КСЛП.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK IN(1,2) AND ISNULL(POUH,0) IN(0,1)</USL_TEST>
+    <VAL_EL>0,1</VAL_EL>
+    <COMMENT>При наличии заполняется значением 1. При отсутствии - 0</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.20.0011</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/IND_POST</ID_EL>
+    <DESC_TEST>Проверка признака развертывания индивидуального поста для определения КСЛП.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK IN(1,2) AND ISNULL(IND_POST,0) =1</USL_TEST>
+    <VAL_EL>0,1</VAL_EL>
+    <COMMENT>При наличии заполняется значением 1. При отсутствии не передается</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.20.0012</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/TIP_EKO</ID_EL>
+    <DESC_TEST>Проверка типа ЭКО для определения КСЛП.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=2 AND PROFIL=139</USL_TEST>
+    <VAL_EL>1,2,3,4,5</VAL_EL>
+    <COMMENT>Обязательно для заполнения при проведении про-цедуры ЭКО. Если не заполнено, эле-мент не передается.</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.20.0013</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/PAR</ID_EL>
+    <DESC_TEST>Проверка выполнения операции на парных органах для определения КСЛП.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>SP_KSLP</NSI_OBJ>
+    <NSI_EL>SUR1,SUR2</NSI_EL>
+    <USL_TEST>USL_OK IN(1,2) AND ISNULL(VID_VME,'')&lt;&gt;''</USL_TEST>
+    <VAL_EL>Вид вмешательства входит в региональный справочник КСЛП</VAL_EL>
+    <COMMENT>Заполняется значением 1, если операция выполнена на обоих парных органах</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.20.0050</ID_TEST>
+    <ID_EL>PERS_LIST/PERS/ADRES</ID_EL>
+    <DESC_TEST>Проверка наличия адрес фактического места жительства (нахождения)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>ISNULL(ADRES,'')&lt;&gt;''</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Адрес фактического места жительства (нахождения)</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.25.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/IDDOKT</ID_EL>
+    <DESC_TEST>Обязательное</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Поле содержит недопустимые символы, отличные от 0-9, "-"</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>12.07.0006</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.25.0002</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/ONK_SL/ONK_USL</ID_EL>
+    <DESC_TEST>Обязательное, проверка на наличие тэга</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>при USL_OK in (1,2) и DS1_T={0,1,2}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>12.07.0006</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.25.0003</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/ONK_SL/ONK_USL</ID_EL>
+    <DESC_TEST>Обязательное, проверка на наличие тэга</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>при любых USL_OK</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>12.07.0006</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.25.0004</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/CONS/DT_CONS</ID_EL>
+    <DESC_TEST>Обязательное, проверка на наличие заполненного тэга</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>при PR_CONS={1,2,3}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>12.07.0006</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.53.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз не оплачивается по территориальной программе ОМС</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>На основе регионального справочника МКБ-10, в котором указан признак оплаты по территориальной программе ОМС</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>На основе регионального справочника МКБ-10</COMMENT>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.53.0002</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз не является самостоятельным диагнозом</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>На основе регионального справочника МКБ-10, в котором указаны несамостоятельные диагнозы</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>На основе регионального справочника МКБ-10</COMMENT>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.59.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL_K</ID_EL>
+    <DESC_TEST>Обязательно для заполнения для USL_OK={1, 2}</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.59.0020</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/IDDOKT</ID_EL>
+    <DESC_TEST>Обязательно к заполнению</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Проверка регионального уровня на основании территориального справочника медицинских работников</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>001K.59.0030</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Не предусмотрено</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Тег SL.USL присутствует</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002F.01.0002</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/KSG_KPG/N_KSG</ID_EL>
+    <DESC_TEST>поиск номеров КСГ подлежащих проверке МЭЭ (ЭКМП)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>N_KSG между (ds19.018 и ds19.027) или (ds19.011 И ds19.015) или (st19.027 и st19.036) или (st19.049 и st19.055)</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>В соответсвии с письмом ФФОМС от 30.08.2018 № 10868/30/и все случаи лекарственной терапии подлежать проведению МЭЭ(ЭКМП)</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002F.01.0003</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/FOR_POM</ID_EL>
+    <DESC_TEST>Проверка неотложной формы помощи</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>FOR_POM=2</USL_TEST>
+    <VAL_EL>1.2.3</VAL_EL>
+    <COMMENT>Для неотложной формы помощи требуется проверка экспертом.</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.50.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Профиль не соответвует специальности</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>PSPMMYY</NSI_OBJ>
+    <NSI_EL>PROFIL, PRVS</NSI_EL>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Проверка соответствия профиля специальности</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>002K.50.0020</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/PROFIL</ID_EL>
+    <DESC_TEST>Профиль не соответвует специальности</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>PSPMMYY</NSI_OBJ>
+    <NSI_EL>PROFIL, PRVS</NSI_EL>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Проверка соответствия профиля специальности</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>002K.50.0030</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Профиль не соответвует специальности</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>PSPMMYY</NSI_OBJ>
+    <NSI_EL>PROFIL, PRVS</NSI_EL>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Проверка соответствия профиля специальности</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>002K.50.0040</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/PRVS</ID_EL>
+    <DESC_TEST>Профиль не соответвует специальности</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>PSPMMYY</NSI_OBJ>
+    <NSI_EL>PROFIL, PRVS</NSI_EL>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Проверка соответствия профиля специальности</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0457</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/USL/PROFIL</ID_EL>
+    <DESC_TEST>Профиль не соответствует базовой программе ОМС</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Профиль не соответствует базовой программе ОМС</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Профиль не соответствует базовой программе ОМС</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0460</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>При оказании плановой формы мед. помощи (FOR_POM=3) данный вид исследования не оплачивается</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>При оказании плановой формы мед. помощи (FOR_POM=3) данный вид исследования не оплачивается</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>При оказании плановой формы мед. помощи (FOR_POM=3) данный вид исследования не оплачивается</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0461</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Не соответствует количество УЕТ тарифному соглашению</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Не соответствует количество УЕТ тарифному соглашению</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Не соответствует количество УЕТ тарифному соглашению</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0462</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/KSG_KPG/IT_SL</ID_EL>
+    <DESC_TEST>Указанное значение КСЛП (IT_SL) не соответствует критериям</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Указанное значение КСЛП (IT_SL) не соответствует критериям</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Указанное значение КСЛП (IT_SL) не соответствует критериям</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0463</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/VID_VME</ID_EL>
+    <DESC_TEST>Указана услуга (VID_VME), не соответствующая полу пациента</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Указана услуга (VID_VME), не соответствующая полу пациента</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Указана услуга (VID_VME), не соответствующая полу пациента</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0464</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз Z в обращении по заболеванию</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Диагноз Z в обращении по заболеванию</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Диагноз Z в обращении по заболеванию</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0465</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/KSG_KPG/N_KSG</ID_EL>
+    <DESC_TEST>КСГ (гериатрия) не соответствует профилю мед. помощи</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>КСГ (гериатрия) не соответствует профилю мед. помощи</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>КСГ (гериатрия) не соответствует профилю мед. помощи</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0467</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/IDDOKT</ID_EL>
+    <DESC_TEST>Врач не закреплен за данной МО или отсутствует действ. сертификат  в элементе "сведения о случае"</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Врач не закреплен за данной МО или отсутствует действ. сертификат  в элементе "сведения о случае"</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Врач не закреплен за данной МО или отсутствует действ. сертификат  в элементе "сведения о случае"</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0468</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_MD</ID_EL>
+    <DESC_TEST>Врач не закреплен за данной МО или отсутствует действ. сертификат в элементе "сведения об услуге"</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Врач не закреплен за данной МО или отсутствует действ. сертификат в элементе "сведения об услуге"</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Врач не закреплен за данной МО или отсутствует действ. сертификат в элементе "сведения об услуге"</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0469</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/P_CEL</ID_EL>
+    <DESC_TEST>Поле P_CEL не соответствует к-ву посещений</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Поле P_CEL не соответствует к-ву посещений</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Поле P_CEL не соответствует к-ву посещений</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0470</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/P_CEL</ID_EL>
+    <DESC_TEST>P_CEL=(3.0) отсутствует первичный прием/присутствуют два первичных приема или P_CEL = (1.0;1.1;1.2;1.3;2.5;2.6) не может быть повторных приемов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>P_CEL=(3.0) отсутствует первичный прием/присутствуют два первичных приема или P_CEL = (1.0;1.1;1.2;1.3;2.5;2.6) не может быть повторных приемов</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>P_CEL=(3.0) отсутствует первичный прием/присутствуют два первичных приема или P_CEL = (1.0;1.1;1.2;1.3;2.5;2.6) не может быть повторных приемов</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0471</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/DISP</ID_EL>
+    <DESC_TEST>ДВ4/ОПВ/ДВ2/УД1/УД2 проведены пациенту, не прикрепленному к МО, представившей реестр счета</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>ДВ4/ОПВ/ДВ2/УД1/УД2 проведены пациенту, не прикрепленному к МО, представившей реестр счета</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>ДВ4/ОПВ/ДВ2/УД1/УД2 проведены пациенту, не прикрепленному к МО, представившей реестр счета</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0472</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Профиль в элементе "сведения о случае" отсутствует в лицензии</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Профиль в элементе "сведения о случае" отсутствует в лицензии</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Профиль в элементе "сведения о случае" отсутствует в лицензии</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0484</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>1.1 Несвоевременное включение в группу диспансерного наблюдения – согласно данным на Портале «Диспансерное наблюдение»</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>1.1 Несвоевременное включение в группу диспансерного наблюдения – согласно данным на Портале «Диспансерное наблюдение»</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>1.1 Несвоевременное включение в группу диспансерного наблюдения – согласно данным на Портале «Диспансерное наблюдение»</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0485</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>1.2 Невключение в группу диспансерного наблюдения – согласно данным  Портала «Диспансерное наблюдение»</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>1.2 Невключение в группу диспансерного наблюдения – согласно данным  Портала «Диспансерное наблюдение»</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>1.2 Невключение в группу диспансерного наблюдения – согласно данным  Портала «Диспансерное наблюдение»</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0486</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/FOR_POM</ID_EL>
+    <DESC_TEST>МТР. Нарушение приказа Минздрава РФ от 21.12.2012 г. № 1342н. Код МО, направившей пациента на плановое лечение, не соответствует коду МО по месту прикрепле6ния. Проверить обоснованность оказания МП в плановой форме</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>МТР. Нарушение приказа Минздрава РФ от 21.12.2012 г. № 1342н. Код МО, направившей пациента на плановое лечение, не соответствует коду МО по месту прикрепле6ния. Проверить обоснованность оказания МП в плановой форме</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>МТР. Нарушение приказа Минздрава РФ от 21.12.2012 г. № 1342н. Код МО, направившей пациента на плановое лечение, не соответствует коду МО по месту прикрепле6ния. Проверить обоснованность оказания МП в плановой форме</COMMENT>
+    <DATEBEG>10.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0487</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/P_CEL</ID_EL>
+    <DESC_TEST>Указаны не все обязательные услуги</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Указаны не все обязательные услуги</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Указаны не все обязательные услуги</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0488</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/RSLT</ID_EL>
+    <DESC_TEST>Диагноз (DS1) не соответствует результату обращения (RSLT)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Диагноз (DS1) не соответствует результату обращения (RSLT)</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Диагноз (DS1) не соответствует результату обращения (RSLT)</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0490</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/C_ZAB</ID_EL>
+    <DESC_TEST>В комп. посещ. по диспансер.наблюдению некорректно указан C_ZAB =2 впервые в жизни установленное</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>В комп. посещ. по диспансер.наблюдению некорректно указан C_ZAB =2 впервые в жизни установленное</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>В комп. посещ. по диспансер.наблюдению некорректно указан C_ZAB =2 впервые в жизни установленное</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0492</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/NPR_MO</ID_EL>
+    <DESC_TEST>В поле NPR_MO (Z_SL) указан код МО, с которым не заключен договор по ОМС</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>В поле NPR_MO (Z_SL) указан код МО, с которым не заключен договор по ОМС</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>В поле NPR_MO (Z_SL) указан код МО, с которым не заключен договор по ОМС</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.55.0493</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDCASE</ID_EL>
+    <DESC_TEST>Некорректно применен код услуги в реестрах МТР</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Некорректно применен код услуги в реестрах МТР</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Некорректно применен код услуги в реестрах МТР</COMMENT>
+    <DATEBEG>01.05.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.59.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/NSCHET_P</ID_EL>
+    <DESC_TEST>Для повторно поданного случая должен быть найден соответствующий случай в ранее предъявленном реестре счетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.59.0020</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/DSCHET_P</ID_EL>
+    <DESC_TEST>Для повторно поданного случая должен быть найден соответствующий случай в ранее предъявленном реестре счетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.59.0030</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/N_ZAP_P</ID_EL>
+    <DESC_TEST>Для повторно поданного случая должен быть найден соответствующий случай в ранее предъявленном реестре счетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.59.0040</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/IDCASE_P</ID_EL>
+    <DESC_TEST>Для повторно поданного случая должен быть найден соответствующий случай в ранее предъявленном реестре счетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/FOR_POM</ID_EL>
+    <DESC_TEST>несогласованность формы помощи и цели посещения</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>P_CEL="1.3"</USL_TEST>
+    <VAL_EL>3</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0002</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/FOR_POM</ID_EL>
+    <DESC_TEST>несогласованность формы помощи и цели посещения</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>P_CEL="1.1"</USL_TEST>
+    <VAL_EL>2</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0005</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/RSLT</ID_EL>
+    <DESC_TEST>не соответствие  группы здоровья возрасту</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>возраст пациента 65 лет и старше</USL_TEST>
+    <VAL_EL>&lt;&gt;1</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0006</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DET</ID_EL>
+    <DESC_TEST>Не согласованность признака детского профиля и профиля помощи</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>det=0</USL_TEST>
+    <VAL_EL>PROFIL not in {17, 18, 19, 20, 21, 68, 86,55}</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0007</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DET</ID_EL>
+    <DESC_TEST>Не согласованность признака детского профиля и профиля помощи</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>det=1</USL_TEST>
+    <VAL_EL>PROFIL not in {29, 60, 108, 122}</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0008</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>неполное указание диагноза</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>_</NSI_OBJ>
+    <NSI_EL>_</NSI_EL>
+    <USL_TEST>подрубрика ds1  входит в множество {S12,S22,S32,S36,S37,S42,S52,S62,S72,S82,S92,T02,T08,T10,T12}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Диагноз  должен быть указан до 2-го знака подрубрики</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0009</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз не входит в базовую программу</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>_</NSI_OBJ>
+    <NSI_EL>_</NSI_EL>
+    <USL_TEST>ds1&lt;&gt;''</USL_TEST>
+    <VAL_EL>не входит в  F00-F99, А15-А19</VAL_EL>
+    <COMMENT>ошибка фиксируется при указании диагноза F00-F99, А15-А19</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>002K.64.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS0</ID_EL>
+    <DESC_TEST>дублирование посещения по МКБ</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>_</NSI_OBJ>
+    <NSI_EL>_</NSI_EL>
+    <USL_TEST>usl_ok=3</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Ошибка фиксируется, если USL_OK=3 (за исключением стоматологии), в реестре при перечении дат лечения счета совпадают:признак новорожденного, код медицинской специальности, ФИО и дата рождения пациента, подразделение МО</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003F.20.0014</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/TIP_EKO</ID_EL>
+    <DESC_TEST>Проверка типа ЭКО для определения КСЛП.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=2 AND PROFIL=139</USL_TEST>
+    <VAL_EL>1,2,3,4,5</VAL_EL>
+    <COMMENT>Обязательно для заполнения при проведении процедуры ЭКО. Если не заполнено, элемент не передается.</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003F.20.0015</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/PAR</ID_EL>
+    <DESC_TEST>Проверка выполнения операции на парных органах для определения КСЛП.</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>SP_KSLP</NSI_OBJ>
+    <NSI_EL>SUR1,SUR2</NSI_EL>
+    <USL_TEST>USL_OK IN(1,2) AND ISNULL(VID_VME,'')&lt;&gt;''</USL_TEST>
+    <VAL_EL>Вид вмешательства входит в региональный справочник КСЛП</VAL_EL>
+    <COMMENT>Заполняется значением 1, если операция выполнена на обоих парных органах</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003F.20.0051</ID_TEST>
+    <ID_EL>PERS_LIST/PERS/VETERAN</ID_EL>
+    <DESC_TEST>Проверка наличия поля VETERAN</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Проведение первого этапа диспансеризации взрослых в год, не предусмотренный приказом 124н</USL_TEST>
+    <VAL_EL>9,10,11,12,13,14,18,19,20,37,150</VAL_EL>
+    <COMMENT>Поле заполняется обязательно при прохождении диспансеризации ветераном</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003F.25.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DATE_2</ID_EL>
+    <DESC_TEST>День смерти раньше даты окончания лечения</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Человек снят по причине смерти с датой смерти раньше даты окончания лечения</COMMENT>
+    <DATEBEG>12.07.0006</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003F.47.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DATE_2</ID_EL>
+    <DESC_TEST>Дата окончания лечения не может быть позже даты смерти</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL>DATE_2 &lt;= DEATH_DATE</VAL_EL>
+    <COMMENT>Дата смерти берётся из регионального сегмента базы застрахованных</COMMENT>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.02.0001</ID_TEST>
+    <ID_EL>ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Некорректное представление услуг диализа в реестре счетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>услуги из списка('A18.05.002', 'A18.05.002.002', 'A18.05.002.001', 'A18.05.011', 'A18.05.003.001', 'A18.05.006.001') и профиль отделения не гемодиализ</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.02.0002</ID_TEST>
+    <ID_EL>ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Некорректное представление услуг диализа в реестре счетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>услуги из списка('A18.05.003.001', 'A18.05.006.001') и [КСГне ('st02.006', 'st04.006', 'st12.006', 'st12.007', 'st27.013', 'st29.007', 'st32.007', 'st33.008' )и VER_KSG = 2019])</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.02.0003</ID_TEST>
+    <ID_EL>ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Ошибка подачи ДД взрослого населения (2 этап)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Посещение специалиста для данного пола и возраста отсутствует в плане</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.02.0004</ID_TEST>
+    <ID_EL>ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Ошибка подачи ДД взрослого населения (2 этап)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Для данного возраста и пола в плане есть  посещение  специалиста  но фактически нет  посещения  специалиста</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.02.0005</ID_TEST>
+    <ID_EL>ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Ошибка подачи ДД взрослого населения (2 этап)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>более одного посещения данного специалиста</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.02.0006</ID_TEST>
+    <ID_EL>ZAP/Z_SL/SL/DS_ONK</ID_EL>
+    <DESC_TEST>Неверно указан признак подозрения на злокачественное новообразование DS_ONK</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DS_ONK =1 и NAPR_DATE is null и NAPR_V is null</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.25.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/KSG_KPG/N_KSG</ID_EL>
+    <DESC_TEST>Схемы лекарственной терапии с результатами выписан с улучшением без перемен, улучшение</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Схема начинается на "sh", usl_ok in (1,2), rslt in (101,201,301)</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Если не найдено соответствие V023, либо дни (DATEBEG, DATEEND)+1 меньше установленной нормы по справочнику</COMMENT>
+    <DATEBEG>12.07.0006</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.38.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Соответствие оказанной услуги полу пациента</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>NYSSEX</NSI_OBJ>
+    <NSI_EL>NYS,SEX</NSI_EL>
+    <USL_TEST>USL_OK=3</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Соответствие оказанной услуги полу пациента</COMMENT>
+    <DATEBEG>18.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.38.0002</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Соответствие диагноза полу пациента</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>DIAGSEX</NSI_OBJ>
+    <NSI_EL>KEY1,KEY2,SEX</NSI_EL>
+    <USL_TEST>USL_OK=3</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Соответствие диагноза полу пациента</COMMENT>
+    <DATEBEG>18.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/ISHOD</ID_EL>
+    <DESC_TEST>Проверка соответствия исхода заболевания условию оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>ISHOD=V012.IDIZ</USL_TEST>
+    <VAL_EL>USL_OK=V012.DL_USLOV</VAL_EL>
+    <COMMENT>Исход заболевания не соответствует условию оказания МП</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0020</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/VIDPOM</ID_EL>
+    <DESC_TEST>Отсутствие лицензии</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T004</NSI_OBJ>
+    <NSI_EL>LIC_VIDMP_COD</NSI_EL>
+    <USL_TEST/>
+    <VAL_EL>LIC_VIDMP_COD=VIDPOM</VAL_EL>
+    <COMMENT>Проверка наличия лицензии, соответствующей виду медицинской помощи, у МО на дату начала законченного случая DATE_Z_1</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0030</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Отсутствие лицензии</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T004</NSI_OBJ>
+    <NSI_EL>LIC_PROFMP</NSI_EL>
+    <USL_TEST>T004.LIC_VIDMP_COD=VIDPOM</USL_TEST>
+    <VAL_EL>LIC_PROFMP=PROFIL</VAL_EL>
+    <COMMENT>Проверка наличия лицензии, соответствующей профилю медицинской помощи, у МО на дату начала случая DATE_1</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.07.2022</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0031</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Отсутствие лицензии</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T004</NSI_OBJ>
+    <NSI_EL>LIC_PROFMP</NSI_EL>
+    <USL_TEST>T004.LIC_VIDMP_COD=VIDPOM и T004.LIC_USL_OK=USL_OK</USL_TEST>
+    <VAL_EL>LIC_PROFMP=PROFIL</VAL_EL>
+    <COMMENT>Проверка наличия лицензии на оказание МП по указанным в реестре профилю, виду и условию оказания на дату начала случая DATE_1</COMMENT>
+    <DATEBEG>01.08.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0040</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL_K</ID_EL>
+    <DESC_TEST>Проверка соответствия профиля койки профилю медпомощи по приложению к Порядку</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>IDK_PR не соответствует IDPR</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Профиль койки не соответствует профилю медицинской помощи</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0041</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Проверка соответствия врачебной специальности профилю медпомощи по приложению к Порядку</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>IDSPEC не соответствует IDPR</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Специальность не соответствует профилю медицинской помощи</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0042</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL</ID_EL>
+    <DESC_TEST>Проверка допустимости сочетания профиля мед.помощи, профиля койки и врачебной специальности по приложению к Порядку</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T105</NSI_OBJ>
+    <NSI_EL>IDPR,IDK_PR,IDSPEC</NSI_EL>
+    <USL_TEST>USL_OK = {1,2}</USL_TEST>
+    <VAL_EL>PROFIL,PROFIL_K,PRVS = T105(IDPR,IDK_PR,IDSPEC)</VAL_EL>
+    <COMMENT>Сочетание профиля мед.помощи, профиля койки и врачебной специальности недопустимо</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0050</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>IDSP не в диапазоне (24,25,28,29,30,33,36,44)</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленным способам оплаты</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0052</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>USL_OK=3 и LPU in (410005,410008,410009,410011,410013,410015,410016,410018,410035,410042,410043,410068) и IDSP не равно 25</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленному способу оплаты</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0056</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>USL_OK=1 и SMO не 41001 и IDSP не равно 33</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленному способу оплаты</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0057</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>USL_OK=4 и LPU in (410035,410051,410052) и IDSP не равно 36</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленному способу оплаты</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0058</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>LPU in (410007,410028,410029,410030,410031,410032,410033,410036,410037,410038,410039,410040,410047) и IDSP не равно 44</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленному способу оплаты</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0059</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>USL_OK=2 и SMO не 41001 и IDSP не 33</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленному способу оплаты</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2021</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0060</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Проверка услуги в центре здоровья</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>LPU in (410005,410015) и P_CEL=2.3</USL_TEST>
+    <VAL_EL>B03.047.002</VAL_EL>
+    <COMMENT>Недопустимое значение кода услуги центра здоровья в случае P_CEL=2.3</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0061</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/P_CEL</ID_EL>
+    <DESC_TEST>Проверка цели посещения в центре здоровья</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>LPU in (410005,410015) и CODE_USL=B03.047.002</USL_TEST>
+    <VAL_EL>2.3</VAL_EL>
+    <COMMENT>Недопустимое значение цели посещения центра здоровья для кода услуги B03.047.002</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0062</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Проверка услуги МО, не являющейся центром здоровья</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>LPU not in (410005,410015)</USL_TEST>
+    <VAL_EL>CODE_USL не равно B03.047.002</VAL_EL>
+    <COMMENT>Недопустимое значение кода услуги для МО, не являющейся центром здоровья</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0063</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/P_CEL</ID_EL>
+    <DESC_TEST>Проверка цели посещения МО, не являющейся центром здоровья</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>LPU not in (410005,410015)</USL_TEST>
+    <VAL_EL>P_CEL не равно 2.3</VAL_EL>
+    <COMMENT>Недопустимое значение цели посещения для МО, не являющейся центром здоровья</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0070</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/TARIF</ID_EL>
+    <DESC_TEST>Тариф в реестрах по профосмотрам и диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Тариф заполнен</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Тариф не заполняется в реестрах по профосмотрам и диспансеризации</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0071</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/SUMV_USL</ID_EL>
+    <DESC_TEST>Стоимость услуги в реестрах по профосмотрам и диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Стоимость больше 0</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Стоимость в реестрах по профосмотрам и диспансеризации указывается равной 0.00</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0072</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Способ оплаты в реестрах по профосмотрам и диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>IDSP=30</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленному способу оплаты в реестрах по профосмотрам и диспансеризации</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0073</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Способ оплаты в реестрах по профосмотрам и диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL>IDSP in (31,44)</VAL_EL>
+    <COMMENT>Проверка на соответствие установленному способу оплаты в реестрах по профосмотрам и диспансеризации</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND>31.12.2022</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0074</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Способ оплаты в реестрах по профосмотрам и диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL>IDSP = 29</VAL_EL>
+    <COMMENT>Проверка на соответствие установленному способу оплаты в реестрах по профосмотрам и диспансеризации</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0080</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Недопустимое значение в поле IDSP</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL>IDSP</NSI_EL>
+    <USL_TEST>IDSP не в диапазоне (24,28,29,30,33)</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на соответствие установленным способам оплаты в реестрах при ЗНО</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0090</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/VB_P</ID_EL>
+    <DESC_TEST>Проверка случаев лечения при внутрибольничном переводе</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=1</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>При внутрибольничном переводе количество случаев лечения должно быть не меньше 2</COMMENT>
+    <DATEBEG>01.01.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0100</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Проверка профиля при ОНМК</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>I60&lt;=DS1&lt;I65 или G45&lt;=DS1&lt;G47</USL_TEST>
+    <VAL_EL>53</VAL_EL>
+    <COMMENT>При оказании медпомощи больным с ОНМК профиль должен быть "неврология"</COMMENT>
+    <DATEBEG>01.11.2020</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0110</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL</ID_EL>
+    <DESC_TEST>Проверка наличия набора услуг диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T302</NSI_OBJ>
+    <NSI_EL>CODE_ID,ZONE_ID,AGE</NSI_EL>
+    <USL_TEST>DISP=ДВ4,ОПВ</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Должен быть в наличии набор услуг диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0120</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL</ID_EL>
+    <DESC_TEST>Проверка выполнения обязательного набора услуг диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T302</NSI_OBJ>
+    <NSI_EL>CODE_ID,ZONE_ID,AGE</NSI_EL>
+    <USL_TEST>DISP=ДВ4,ОПВ</USL_TEST>
+    <VAL_EL>Выполняется весь набор обязательных услуг</VAL_EL>
+    <COMMENT>Должен выполняться обязательный набор услуг диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0130</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL</ID_EL>
+    <DESC_TEST>Проверка выполнения обязательной нормы количества услуг (85%) случая диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T302</NSI_OBJ>
+    <NSI_EL>CODE_ID,ZONE_ID,AGE</NSI_EL>
+    <USL_TEST>DISP=ДВ4,ОПВ</USL_TEST>
+    <VAL_EL>Количество услуг &gt;= 85% полного набора</VAL_EL>
+    <COMMENT>Должна выполняться обязательная норма количества услуг (85%) случая диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0140</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL</ID_EL>
+    <DESC_TEST>Проверка отсутствия дублирования услуги или альтернативных услуг случая диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T302</NSI_OBJ>
+    <NSI_EL>CODE_ID,ZONE_ID,AGE</NSI_EL>
+    <USL_TEST>DISP=ДВ4,ОПВ</USL_TEST>
+    <VAL_EL>Отсутствуют дублированные или альтернативные услуги</VAL_EL>
+    <COMMENT>Не должно быть дублирования услуги или наличия альтернативных услуг случая диспансеризации для данной МО (тарифной зоны) и пациента данного пола и возраста</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0150</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Проверка наличия услуги в программе диспансеризации для пациента данного пола</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T301</NSI_OBJ>
+    <NSI_EL>W,S_CODE</NSI_EL>
+    <USL_TEST>DISP=ДВ4,ОПВ</USL_TEST>
+    <VAL_EL>Услуга, не входящая в набор услуг диспансеризации для пациента данного пола, должна отсутствовать</VAL_EL>
+    <COMMENT>Услуга не входит в программу диспансеризации для пациента данного пола</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0160</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Проверка наличия услуги в программе диспансеризации данной МО (тарифной зоны) для пациента данного пола и возраста</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T302</NSI_OBJ>
+    <NSI_EL>CODE_ID,ZONE_ID,AGE</NSI_EL>
+    <USL_TEST>DISP=ДВ4,ОПВ</USL_TEST>
+    <VAL_EL>Услуга, не входящая в набор услуг диспансеризации данной МО (тарифной зоны) для пациента данного пола и возраста, должна отсутствовать</VAL_EL>
+    <COMMENT>Услуга не входит в программу диспансеризации данной МО (тарифной зоны) для пациента данного пола и возраста</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0170</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Проверка соответствия диагноза типу передаваемых данных (диспансеризация)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL>DS1 не равно Z00.1,Z00.2,Z00.3</VAL_EL>
+    <COMMENT>Диагноз не соответствует типу передаваемых данных (TYPE_D не равно X)</COMMENT>
+    <DATEBEG>01.12.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0180</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Проверка соответствия диагноза типу диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DS1 равно Z00.1,Z00.2,Z00.3</USL_TEST>
+    <VAL_EL>DISP равно ДС1,ДС2,ДС3,ДС4,ПН1,ПН2</VAL_EL>
+    <COMMENT>Диагноз не соответствует типу диспансеризации (DISP не равно ДС1,ДС2,ДС3,ДС4,ПН1,ПН2)</COMMENT>
+    <DATEBEG>01.12.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0190</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/KSG_KPG/N_KSG</ID_EL>
+    <DESC_TEST>Проверка соответствия группы КСГ профилю медпомощи (V002)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T023</NSI_OBJ>
+    <NSI_EL>K_KSG,PROFIL</NSI_EL>
+    <USL_TEST>N_KSG=T023.K_KSG</USL_TEST>
+    <VAL_EL>PROFIL=T023.PROFIL</VAL_EL>
+    <COMMENT>Профиль медпомощи должен соответствовать группе КСГ</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0200</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/ISHOD</ID_EL>
+    <DESC_TEST>Проверка соответствия исхода заболевания диагнозу (вакцинация)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DS1={Z25.1,Z25.8}</USL_TEST>
+    <VAL_EL>{301,304}</VAL_EL>
+    <COMMENT>Исход заболевания не соответствует диагнозу (вакцинация)</COMMENT>
+    <DATEBEG>01.10.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0210</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/RSLT</ID_EL>
+    <DESC_TEST>Проверка соответствия результата обращения диагнозу (вакцинация)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DS1={Z25.1,Z25.8}</USL_TEST>
+    <VAL_EL>{301,314}</VAL_EL>
+    <COMMENT>Результат обращения не соответствует диагнозу (вакцинация)</COMMENT>
+    <DATEBEG>01.10.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0220</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/P_CEL</ID_EL>
+    <DESC_TEST>Проверка соответствия цели посещения диагнозу (вакцинация)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DS1=Z25.1,Z25.8</USL_TEST>
+    <VAL_EL>2.6</VAL_EL>
+    <COMMENT>Цель посещения не соответствует диагнозу (вакцинация)</COMMENT>
+    <DATEBEG>01.10.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0230</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL</ID_EL>
+    <DESC_TEST>Проверка выполнения нормы (не более 15%) по количеству услуг, оказанных до начала диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DISP=ДВ4</USL_TEST>
+    <VAL_EL>Количество услуг &lt;= 15% полного набора</VAL_EL>
+    <COMMENT>Должна выполняться норма (не более 15%) по количеству услуг, оказанных до начала диспансеризации</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND>31.05.2022</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0240</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/DATE_IN</ID_EL>
+    <DESC_TEST>Проверка выполнения условия датирования услуги годом, не меньшим, чем год даты начала законченного случая</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T301</NSI_OBJ>
+    <NSI_EL>S_CODE,CURRENT_YEAR</NSI_EL>
+    <USL_TEST>DISP IN {ДВ4,ОПВ} и T301.S_CODE=USL.CODE_USL и T301.CURRENT_YEAR=1</USL_TEST>
+    <VAL_EL>YEAR(USL.DATE_IN) &gt;= YEAR(Z_SL.DATE_Z_1)</VAL_EL>
+    <COMMENT>Данная услуга должна быть датирована годом, соответствущим году начала законченного случая</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0250</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/DATE_IN</ID_EL>
+    <DESC_TEST>Проверка услуги на истёкший срок давности к моменту начала законченного случая</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T301</NSI_OBJ>
+    <NSI_EL>S_CODE,EXP_DATE</NSI_EL>
+    <USL_TEST>DISP IN {ДВ4,ОПВ} и T301.S_CODE=USL.CODE_USL</USL_TEST>
+    <VAL_EL>USL.DATE_IN + T301.EXP_DATE &gt;= Z_SL.DATE_Z_1</VAL_EL>
+    <COMMENT>Превышена давность осмотра и (или) исследования</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0260</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/FOR_POM</ID_EL>
+    <DESC_TEST>Проверка формы МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и P_CEL=1.1</USL_TEST>
+    <VAL_EL>FOR_POM=2</VAL_EL>
+    <COMMENT>Несогласованность условий оказания, цели посещения и формы медицинской помощи</COMMENT>
+    <DATEBEG>01.06.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0270</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Проверка соответствия профиля медпомощи группе КСГ</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T023</NSI_OBJ>
+    <NSI_EL>K_KSG,PROFIL</NSI_EL>
+    <USL_TEST>Тег KSG_KPG присутствует и PROFIL=T023.PROFIL</USL_TEST>
+    <VAL_EL>N_KSG IN {T023.K_KSG}</VAL_EL>
+    <COMMENT>Группа КСГ должна соответствовать профилю медпомощи</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0280</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/C_ZAB</ID_EL>
+    <DESC_TEST>Дата постановки на Д-учет не может быть раньше даты начала лечения, если заболевание установлено впервые</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>C_ZAB = 2 и DS_DN = DS1</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Дата постановки на Д-учет не может быть раньше даты начала лечения, если заболевание установлено впервые</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0290</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Проверка способа оплаты на соответствие выполненным услугам и возрасту пациента</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>CODE_USL соответствует способу оплаты за единицу объема и возраст пациента &gt;= 18 лет</USL_TEST>
+    <VAL_EL>IDSP IN {24,28,29,30,33}</VAL_EL>
+    <COMMENT>Способ оплаты не соответствует выполненным услугам и возрасту пациента</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0300</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/IDSP</ID_EL>
+    <DESC_TEST>Проверка способа оплаты на соответствие цели посещения</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>P_CEL IN {6.1,6.2,6.3,5.1,5.2,5.3,5.4}</USL_TEST>
+    <VAL_EL>IDSP IN {24,28,29,30,33}</VAL_EL>
+    <COMMENT>Способ оплаты не соответствует цели посещения</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.0310</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/CODE_MES2</ID_EL>
+    <DESC_TEST>Проверка обязательности наличия и заполнения элемента в случаях проведения медицинской реабилитации в амбулаторных условиях</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK = 3 и CODE_USL in {B05.014.002.001, B05.014.002.002, B05.023.002.001, B05.023.002.001.001, B05.024.001.001, B05.024.001.002, B05.023.003, B05.023.003.001}</USL_TEST>
+    <VAL_EL>CODE_MES2 IN {301,302,303}</VAL_EL>
+    <COMMENT>Поле не заполнено или отсутствует</COMMENT>
+    <DATEBEG>01.06.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4000</ID_TEST>
+    <ID_EL>PERS_LIST/PERS</ID_EL>
+    <DESC_TEST>Проверка региона страхования</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>По данным ЦС ЕРЗ действующее страхование не соответствует плательщику - СМО Камчатского края</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Оказание МП ЗЛ, получившему полис ОМС на территории другого субъекта РФ, при плательщике - страховая медицинская компания</COMMENT>
+    <DATEBEG>01.03.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4001</ID_TEST>
+    <ID_EL>PERS_LIST/PERS</ID_EL>
+    <DESC_TEST>Проверка региона страхования</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>По данным ЦС ЕРЗ действующее страхование в СМО  не соответствует указанному плательщику - Территориальный фонд ОМС</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Оказание МП ЗЛ, получившему полис ОМС на территории Камчатского края при плательщике - Территориальный фонд ОМС</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4010</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/PLAT</ID_EL>
+    <DESC_TEST>Проверка реестра на соответствие плательщика</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Файл предоставляется для оплаты ТФОМС КК</USL_TEST>
+    <VAL_EL>Тег PLAT отсутствует в файле</VAL_EL>
+    <COMMENT>Данный файл предоставляется для оплаты страховой компанией</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4011</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/PLAT</ID_EL>
+    <DESC_TEST>Проверка реестра на соответствие плательщика</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Файл предоставляется для оплаты страховой компанией</USL_TEST>
+    <VAL_EL>Тег PLAT присутствует в файле</VAL_EL>
+    <COMMENT>Данный файл предоставляется для оплаты ТФОМС КК</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4020</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/PACIENT/ST_OKATO</ID_EL>
+    <DESC_TEST>Проверка обязательности заполнения поля ST_OKATO  для межтерриториальных расчетов</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Тег PLAT отсутствует в файле</USL_TEST>
+    <VAL_EL>ST_OKATO должно быть заполнено</VAL_EL>
+    <COMMENT>Поле ST_OKATO обязательно к заполнению, если файл предназначен для межтерриториальных расчетов</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4040</ID_TEST>
+    <ID_EL>PERS_LIST/PERS</ID_EL>
+    <DESC_TEST>Проверка наличия страхования</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Идентификация завершилась со статусом 4 и в ЦС ЕРЗ страхование не найдено</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>На дату завершения случая страхование не найдено</COMMENT>
+    <DATEBEG>01.03.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4050</ID_TEST>
+    <ID_EL>PERS_LIST/PERS</ID_EL>
+    <DESC_TEST>Проверка наличия страхования представителя</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Идентификация завершилась со статусом 9 и в ЦС ЕРЗ страхование не найдено</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>На дату завершения случая страхование представителя не найдено</COMMENT>
+    <DATEBEG>01.03.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4060</ID_TEST>
+    <ID_EL>PERS_LIST/PERS</ID_EL>
+    <DESC_TEST>Проверка соответствия страхования данным пациента или представителя</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>L</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Идентификация пациента или представителя проводится обращением в ЦС ЕРЗ</USL_TEST>
+    <VAL_EL>Идентификация не должна завершиться со статусом 3, при котором найденные в ЦС ЕРЗ данные либо не имеют степень релевантности "достоверно", либо не соответствует данным пациента или представителя</VAL_EL>
+    <COMMENT>На дату завершения случая найденное в ЦС ЕРЗ страхование не соответствует данным пациента</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4070</ID_TEST>
+    <ID_EL>PERS_LIST/PERS</ID_EL>
+    <DESC_TEST>Проверка наличия прикрепления пациента к МО</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Определение прикрепления пациента проводится обращением к ЕРЗ</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Прикрепление пациента к МО в ЕРЗ отсутствует</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND>31.01.2023</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.4080</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/LPU</ID_EL>
+    <DESC_TEST>Проверка прикрепления пациента к МО при прохождении диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T104</NSI_OBJ>
+    <NSI_EL>DISP</NSI_EL>
+    <USL_TEST>Определение прикрепления пациента проводится обращением к ЕРЗ</USL_TEST>
+    <VAL_EL>МО проведения диспансеризации должна соответствовать МО прикрепления пациента</VAL_EL>
+    <COMMENT>МО проведения диспансеризации не соответствует МО прикрепления пациента</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.5000</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL</ID_EL>
+    <DESC_TEST>Проверка существования законченных случаев с USL_OK={1,3} и (DATE_Z_1&gt;DATE_Z_1(ST) и DATE_Z_1&lt;DATE_Z_2(ST) или DATE_Z_2&gt;DATE_Z_1(ST) и DATE_Z_2&lt;DATE_Z_2(ST)) в рамках одной МО</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Не должно быть пересекающейся по времени МП, оказанной стационарно или амбулаторно в рамках одной МО</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.5010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL</ID_EL>
+    <DESC_TEST>Проверка существования законченных случаев с USL_OK=1 и (DATE_Z_1&gt;=DATE_Z_1(ST) и DATE_Z_1&lt;=DATE_Z_2(ST) или DATE_Z_2&gt;=DATE_Z_1(ST) и DATE_Z_2&lt;=DATE_Z_2(ST))</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=1</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Не должно быть пересекающейся по времени стационарной МП</COMMENT>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.5020</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/DISP</ID_EL>
+    <DESC_TEST>Дублирование случая I этапа углубленной диспансеризации в течение календарного года</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DISP={УД1}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>У пациента имеется законченный случай I этапа углубленной диспансеризации</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.5030</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/DISP</ID_EL>
+    <DESC_TEST>Случай II этапа углубленной диспансеризации представлен без наличия у пациента сведений о прохождении I этапа углубленной диспансеризации в текущем календарном году</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>DISP={УД2}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Случай II этапа углубленной диспансеризации представлен без наличия у пациента сведений о прохождении I этапа углубленной диспансеризации в текущем календарном году</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.41.5040</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL</ID_EL>
+    <DESC_TEST>Ошибка фиксируется, если в случаях совпадают: признак новорожденного, код медицинской специальности, профиль медицинской помощи, ФИО и дата рождения пациента, медицинская организация и в случаях пересекаются: дата начала случая, дата окончания случая</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK = 3 и P_CEL NOT IN {2.3,5.1,5.2,5.3,5.4} и CODE_USL not in {B04.047.099, B04.047.004.005}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Пересечение профильного посещения в рамках одной МО</COMMENT>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0050</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз не входит в территориальную программу</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>MKBMMYY</NSI_OBJ>
+    <NSI_EL>MKB</NSI_EL>
+    <USL_TEST>DS1&lt;&gt;DS2, DS1&lt;&gt;DS3</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Если TERR_PRG="F" фиксируется ошибка</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0060</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/ED_COL</ID_EL>
+    <DESC_TEST>Превышение распределенных объемов оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>QMVMMYY</NSI_OBJ>
+    <NSI_EL/>
+    <USL_TEST>Все услуги с объемным способом оплаты кроме стоматологии</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Ошибка фиксируется, если значение ED_COL по соотвутствующей группе планирования превышает объем МП, выделенный на отчетный период</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0070</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Превышение распределенных объемов оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>QMVMMYY</NSI_OBJ>
+    <NSI_EL/>
+    <USL_TEST>Стоматологические услуги</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Ошибка фиксируется, если значение  ROUND(UCCMMYY.KOL_USL * MDUMMYY.KOL_UET, 2) превышает объем МП, выделенный на отчетный период</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0080</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/SUM_M</ID_EL>
+    <DESC_TEST>Проверка корректности заполнения полей</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK={1,2}, VID_MP=31, ED_IZM=16 не прерванный случай</USL_TEST>
+    <VAL_EL>ROUND(BZTSZ*KOEF_Z*KOEF_U*KOEF_UP*IT_SL,0)</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0081</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/SUM_M</ID_EL>
+    <DESC_TEST>Проверка корректности заполнения полей</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK={1,2}, VID_MP=31, ED_IZM=16 прерваный случай</USL_TEST>
+    <VAL_EL>ROUND(BZTSZ*KOEF_Z*KOEF_U*KOEF_UP*IT_SL*KPS,0)</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0082</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/SUM_M</ID_EL>
+    <DESC_TEST>Проверка корректности заполнения полей</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USK_OK=3</USL_TEST>
+    <VAL_EL>ROUND(TARIF_S * KOL_USL, 0)</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND>31.12.2020</DATEEND>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0110</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL</ID_EL>
+    <DESC_TEST>Медицинская услуга оплачена ранее</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0120</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Оказание нескольких услуг, связанных с удалением зуба, с указанием одинаковой зубной формулы</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0210</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и KOL_USL&gt;1</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Нарушение фиксируется в случае наличия повторных посещений врача одной и той же специальности в один день при оказании амбулаторной МП</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0220</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и KOL_USL=1 и GR_PLAN={'IP','PP','RP','NP','OA'}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Нарушение фиксируется в случае наличия повторных посещений врача одной и той же специальности в один день при оказании амбулаторной МП, за исключением случаев повторного обращения для оказания неотложной помощи</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0230</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и KOL_USL=1 и GR_PLAN={'END', 'UZI', 'BIO','VAC}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Нарушение фиксируется в случае посещения врача одной и той же специальности в один день при окаказии услуг</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0240</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев оказания МП (дородовая госпитализации и родоразрешение)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>CODE_USL='st02.001' и KD&gt;=6 и RSLT=104</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Наличие двух КСГ в случае дородовой госпитализации в отделение патологии беременности и пребывании в этом отделении менее 6 дней с последующим переводом в другое отделение для родоразрешения оплата осуществляется по одной КСГ с наибольшим размером оплаты</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0250</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>GR_PLAN='DP' при одинаковом значении OT_PER_U</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на повторную диспансеризацию/профосмотр внутри отчетного периода</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0260</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DATE_2</ID_EL>
+    <DESC_TEST>Наличие посещений в периорд обращения</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и GR_PLAN='OA'</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0270</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/ED_COL</ID_EL>
+    <DESC_TEST>Превышение максимально возможного количества услуг</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>ED_COL&gt;32</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0310</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>GR_PLAN='DP' при разных значениях OT_PER_U в рамках одного отчетного года</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Проверка на повторную диспансеризацию/профосмотр в отчетном году</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0320</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев лечения COVID-19</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>CODE_USL={'st12.015', 'st12.016', 'st12.017', 'st12.018'}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0330</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Дублирование случаев долечивания COVID-19</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>CODE_USL='st12.019'</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0340</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Превышение допустимого количества услуг в течение года (стоматология)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0350</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Повторная углубленная диспансеризация в течении 60 календарных дней</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0410</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/CODE_MO</ID_EL>
+    <DESC_TEST>Стоимость медицинской услуги включена в норматив финансового обеспечения оплаты амбулаторной медицинской помощи на прикрепленное население, застрахованных в системе ОМС</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0420</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/NPR_MO</ID_EL>
+    <DESC_TEST>Нарушения, связанные с представлением на оплату услуг, участвующующих в межучрежденческих взаиморасчетах</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>GR_PLAN=RPM и VID_SF=09</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0510</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL</ID_EL>
+    <DESC_TEST>Нарушения, связанные с включением в реестр счетов в реестр счетов медицинской помощи, оказанной амбулаторно, в период пребывания застрахованного лица в условиях стационара (кроме дня поступления и выписки из стационара, а также оказания медицинской помощи (консультаций) в других медицинских организациях в экстренной и неотложной форме).</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0520</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/NPR_DATE</ID_EL>
+    <DESC_TEST>Дата направления на проведение исследования пересекается со сроками лечения в условиях круглосуточного стационара</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0530</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL</ID_EL>
+    <DESC_TEST>Дата лечения пересекается со сроками лечения в условиях круглосуточного стационара</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0540</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL</ID_EL>
+    <DESC_TEST>Дата лечения пересекается со сроками лечения в условиях дневного стационара</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0550</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DATE_1</ID_EL>
+    <DESC_TEST>Прием врача приемного отделения пересекается с датой начала госпитализации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.0610</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Оказание помощи по двум КСГ при диагнозах, входящих в один класс</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2023</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4310</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DATE_2</ID_EL>
+    <DESC_TEST>Дата оказания медицинской услуги больше даты смерти пациента</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4320</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Для диспансерного приема отсутвуют сведения о планировании и/или постановке на диспансерный учет в информационной системе ТФОМС МО</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4410</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/PACIENT</ID_EL>
+    <DESC_TEST>Оказание МП детям в возрасте от 3-х месяцев по полису законного представителя</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4420</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз не соответсвует возрасту пациента</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>MKBMMYY</NSI_OBJ>
+    <NSI_EL>VOZR_IN,VOZR_OUT</NSI_EL>
+    <USL_TEST>USL_OK={1, 2, 3, 4}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Нарушение фиксируется, если диагноз не соответвует возрасту пациента</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4430</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Более одной услуги МРТ (КТ) с контрастированием в один день</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и KOL_USL&gt;1 и GR_PLAN={'MT', 'KT'}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4440</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Проверка допустимости сочетаний услуг УЗИ</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>USL_OK=3 и GR_PLAN={'MT', 'KT', 'UZI'}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4450</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Отказ в оптале плановой  медицинской помощи по стоматологии в связи с принятыми мерами по предотвращению распространения новой коронавирусной инфекции на территории Московской области</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>GR_PLAN='UE', DATE_1 или DATE_2 находятся в диапазоне с 28.10.2021 по 07.11.2021</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4460</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Оказание медицинской помощи по онкологии на койках другого профиля</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>GR_PLAN={'CK1', 'CD2', 'СНТ'}</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4470</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Для услуги второго этапа диспансеризации отсутствуют сведения о проведенном первом этапе диспансеризации</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4480</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL_K</ID_EL>
+    <DESC_TEST>Медицинская помощь по КСГ может быть оказана только на геронтологическом профиле койки</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>IDK_PR</NSI_OBJ>
+    <NSI_EL>V020</NSI_EL>
+    <USL_TEST>CODE_USL='st38.001'</USL_TEST>
+    <VAL_EL>PROFIL_K='16'</VAL_EL>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4490</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/CODE_USL</ID_EL>
+    <DESC_TEST>Для услуги фельдшерского амбулаторного пункта некорректно указан VID_SF (способ оплаты VID_SF&lt;&gt;18)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>MDU.PDF=8</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4500</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Профиль помощи не соответствует КСГ</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2022</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.4510</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/SUM_M</ID_EL>
+    <DESC_TEST>Некорректное применение коэффициента прерванности случая оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.5010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/PACIENT/SMO</ID_EL>
+    <DESC_TEST>Определение страховой принадлежности ЗЛ</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.6110</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз не входит в базовую программу ОМС</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>MKBMMYY</NSI_OBJ>
+    <NSI_EL>MKB, BAZ_PRG</NSI_EL>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Нарушение фиксируется, если BAZ_PRG="F"</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.6210</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/ED_COL</ID_EL>
+    <DESC_TEST>Превышение распределенных объемов оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>QMVMMYY</NSI_OBJ>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.6220</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/FOR_POM</ID_EL>
+    <DESC_TEST>Оплата медицинской помощи из других источников финансирования</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.6310</ID_TEST>
+    <ID_EL>ZL_LIST/SCHET/SUMMAV</ID_EL>
+    <DESC_TEST>Превышение финансового плана оказания МП</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.6410</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL</ID_EL>
+    <DESC_TEST>Тяжелые несчастные случаи на производстве, оплаченные Фондом социального страхования (ФСС)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.6420</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL</ID_EL>
+    <DESC_TEST>Другой источник финансирования федеральных учреждений здравоохранения (ФУЗ)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>Медицинская организация (CODE_MO) относится к ФУЗ и (USL_OK=1 и FOR_POM=3 или USL_OK=2)</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.50.8110</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/VIDPOM</ID_EL>
+    <DESC_TEST>Нарушения, связанные с включением в реестр счетов нелицензированных видов медицинской деятельности</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT>Нарушение фиксируется, если вид медицинской помощи и профиль медицинской помощи не соответсвуют лицензии медицинской организации</COMMENT>
+    <DATEBEG>01.01.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.51.0001</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Взаимное несоответствие профиля и специальности врача</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.51.0002</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Взаимное несоответствие профиля оказанной медицинской помощи и профиля койки</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.51.0003</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/PODR</ID_EL>
+    <DESC_TEST>Взаимное несоответствие отделения и профиля оказания медицинской  помощи</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T002</NSI_OBJ>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.51.0004</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/IDSP</ID_EL>
+    <DESC_TEST>Несоответствие кода способа оплаты  оказанным услугам</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.51.0005</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/IDSP</ID_EL>
+    <DESC_TEST>Несоответствие дат лечения и способа оплаты</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>IDSP=29</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Ошибка, если при способе оплаты за посещение DATE_IN&lt;&gt;DATE_OUT</COMMENT>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.59.0010</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/USL/KOL_USL</ID_EL>
+    <DESC_TEST>Не указано количество услуг при P_OTK=0</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.60.0001</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/PRVS</ID_EL>
+    <DESC_TEST>Взаимное несоответствие профиля и специальности врача</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.60.0002</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/PROFIL</ID_EL>
+    <DESC_TEST>Взаимное несоответствие профиля оказанной медицинской помощи и профиля койки</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.60.0003</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/PODR</ID_EL>
+    <DESC_TEST>Взаимное несоответствие отделения и профиля оказания медицинской  помощи</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ>T002</NSI_OBJ>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.60.0004</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/IDSP</ID_EL>
+    <DESC_TEST>Несоответствие кода способа оплаты  оказанным услугам</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.60.0005</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/IDSP</ID_EL>
+    <DESC_TEST>Несоответствие дат лечения и способа оплаты</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>IDSP=29</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Ошибка, если при способе оплаты за посещение DATE_1&lt;&gt;DATE_2</COMMENT>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>003K.60.0006</ID_TEST>
+    <ID_EL>T_ZL_LIST/ZAP/Z_SL/SL/IDSP</ID_EL>
+    <DESC_TEST>Несоответствие дат лечения и способа оплаты</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>IDSP=30</USL_TEST>
+    <VAL_EL/>
+    <COMMENT>Ошибка, если при способе оплаты за обращение DATE_1=DATE_2</COMMENT>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>005F.01.0001</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/Z_SL/SL/DS1</ID_EL>
+    <DESC_TEST>Диагноз должен соответствовать базовой программе ОМС</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST>наличие основного диагноза</USL_TEST>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_TEST>005F.09.3024</ID_TEST>
+    <ID_EL>ZL_LIST/ZAP/PACIENT/SMO_OGRN</ID_EL>
+    <DESC_TEST>Проверка соответствия страховой организации, указанной в случае, данным из регионального сегмента ЕРЗ.(кроме СМП)</DESC_TEST>
+    <TYPE_MD>
+      <TYPE_D>C</TYPE_D>
+      <TYPE_D>D</TYPE_D>
+      <TYPE_D>H</TYPE_D>
+      <TYPE_D>R</TYPE_D>
+      <TYPE_D>T</TYPE_D>
+      <TYPE_D>X</TYPE_D>
+    </TYPE_MD>
+    <NSI_OBJ/>
+    <NSI_EL/>
+    <USL_TEST/>
+    <VAL_EL/>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>ORPREX</type>
+    <version>2.0</version>
+    <date>15.12.2017</date>
+  </zglv>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Орган управления здравоохранением субъекта Российской Федерации</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Управление Росздравнадзора по субъекту Российской Федерации</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Профессиональная медицинская ассоциация</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>4</Kod>
+    <Opis>Общественное объединение специалистов медицинского профиля</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>5</Kod>
+    <Opis>Медицинская организация</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>6</Kod>
+    <Opis>Страховая медицинская организация</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>7</Kod>
+    <Opis>Заявление врача-специалиста</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

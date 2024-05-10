@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>KPC</type>
+    <version>1.5</version>
+    <date>13.04.2018</date>
+  </zglv>
+  <zap>
+    <IDPC>1.0</IDPC>
+    <N_PC>Посещение по заболеванию</N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>1.1</IDPC>
+    <N_PC>Посещениe в неотложной форме </N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>1.2</IDPC>
+    <N_PC>Aктивное посещение </N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>1.3</IDPC>
+    <N_PC>Диспансерное наблюдение </N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>2.1</IDPC>
+    <N_PC>Медицинский осмотр </N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>2.2</IDPC>
+    <N_PC>Диспансеризация</N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>2.3</IDPC>
+    <N_PC>Комплексное обследование </N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>2.5</IDPC>
+    <N_PC>Патронаж</N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>2.6</IDPC>
+    <N_PC>Посещение по другим обстоятельствам </N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>3.0</IDPC>
+    <N_PC>Обращение по заболеванию</N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDPC>3.1</IDPC>
+    <N_PC>Обращение с профилактической целью.</N_PC>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

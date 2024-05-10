@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>DispR</type>
+    <version>2.6</version>
+    <date>03.08.2021</date>
+  </zglv>
+  <zap>
+    <IDDR>1</IDDR>
+    <DRNAME>Присвоена I группа здоровья</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>2</IDDR>
+    <DRNAME>Присвоена II группа здоровья</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>3</IDDR>
+    <DRNAME>Присвоена III группа здоровья</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>4</IDDR>
+    <DRNAME>Присвоена IV группа здоровья</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>5</IDDR>
+    <DRNAME>Присвоена V группа здоровья</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>6</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND>06.03.2014</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>7</IDDR>
+    <DRNAME>Проведен периодический медицинский осмотр несовершеннолетнему</DRNAME>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND>31.12.2017</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>11</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации, предварительно присвоена I группа здоровья</DRNAME>
+    <DATEBEG>06.03.2014</DATEBEG>
+    <DATEEND>31.03.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>12</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации, предварительно присвоена II группа здоровья</DRNAME>
+    <DATEBEG>06.03.2014</DATEBEG>
+    <DATEEND>31.03.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>12</IDDR>
+    <DRNAME>Направлен на II этап профилактического медицинского осмотра несовершеннолетних или диспансеризации всех типов, предварительно присвоена II группа здоровья</DRNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>13</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации, предварительно присвоена III группа здоровья</DRNAME>
+    <DATEBEG>06.03.2014</DATEBEG>
+    <DATEEND>31.12.2015</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>14</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации, предварительно присвоена IIIа группа здоровья</DRNAME>
+    <DATEBEG>01.04.2015</DATEBEG>
+    <DATEEND>31.03.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>14</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации определенных групп взрослого населения, предварительно присвоена IIIа группа здоровья</DRNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND>30.06.2021</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>15</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации, предварительно присвоена IIIб группа здоровья</DRNAME>
+    <DATEBEG>01.04.2015</DATEBEG>
+    <DATEEND>31.03.2018</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>15</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации определенных групп взрослого населения, предварительно присвоена IIIб группа здоровья</DRNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND>30.06.2021</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>16</IDDR>
+    <DRNAME>Проведен I этап диспансеризации определенных групп взрослого населения с периодичностью 1 раз в 2 года</DRNAME>
+    <DATEBEG>01.01.2018</DATEBEG>
+    <DATEEND>31.05.2019</DATEEND>
+  </zap>
+  <zap>
+    <IDDR>17</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации или профилактического медицинского осмотра несовершеннолетних, предварительно присвоена IV группа здоровья</DRNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>18</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации или профилактического медицинского осмотра несовершеннолетних, предварительно присвоена V группа здоровья</DRNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>19</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации или профилактического медицинского осмотра несовершеннолетних, предварительно присвоена III группа здоровья</DRNAME>
+    <DATEBEG>01.04.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>31</IDDR>
+    <DRNAME>Присвоена IIIа группа здоровья</DRNAME>
+    <DATEBEG>01.04.2015</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>32</IDDR>
+    <DRNAME>Присвоена IIIб группа здоровья</DRNAME>
+    <DATEBEG>01.04.2015</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>33</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации определенных групп взрослого населения и углубленной диспансеризации, предварительно присвоена IIIа группа здоровья</DRNAME>
+    <DATEBEG>01.07.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDDR>34</IDDR>
+    <DRNAME>Направлен на II этап диспансеризации определенных групп взрослого населения и углубленной диспансеризации, предварительно присвоена IIIб группа здоровья</DRNAME>
+    <DATEBEG>01.07.2021</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

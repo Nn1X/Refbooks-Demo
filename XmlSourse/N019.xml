@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>OnkCons</type>
+    <version>1.1</version>
+    <date>18.12.2018</date>
+  </zglv>
+  <zap>
+    <ID_CONS>0</ID_CONS>
+    <CONS_NAME>Отсутствует необходимость проведения консилиума;</CONS_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_CONS>1</ID_CONS>
+    <CONS_NAME>Определена тактика обследования;</CONS_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_CONS>2</ID_CONS>
+    <CONS_NAME>Определена тактика лечения;</CONS_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_CONS>3</ID_CONS>
+    <CONS_NAME>Изменена тактика лечения</CONS_NAME>
+    <DATEBEG>01.09.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <ID_CONS>4</ID_CONS>
+    <CONS_NAME>Консилиум не проведен при наличии необходимости его проведения</CONS_NAME>
+    <DATEBEG>01.12.2018</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

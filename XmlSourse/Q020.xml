@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>TYPE_EL</type>
+    <version>1.1</version>
+    <date>06.09.2019</date>
+  </zglv>
+  <zap>
+    <IDTYPE>Н</IDTYPE>
+    <NAMTYPE>Необязательный элемент</NAMTYPE>
+    <COMMENT>Элемент может как присутствовать, так и отсутствовать. При отсутствии не передается</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDTYPE>НМ</IDTYPE>
+    <NAMTYPE>Необязательный элемент, предполагающий множественность данных</NAMTYPE>
+    <COMMENT>Элемент может как присутствовать, так и отсутствовать. При отсутствии не передается</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDTYPE>О</IDTYPE>
+    <NAMTYPE>Обязательный элемент</NAMTYPE>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDTYPE>ОМ</IDTYPE>
+    <NAMTYPE>Обязательный элемент, предполагающий множественность данных</NAMTYPE>
+    <COMMENT/>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDTYPE>У</IDTYPE>
+    <NAMTYPE>Условно-обязательный элемент</NAMTYPE>
+    <COMMENT>При отсутствии не передается</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDTYPE>УМ</IDTYPE>
+    <NAMTYPE>Условно-обязательный элемент, предполагающий множественность данных</NAMTYPE>
+    <COMMENT>При отсутствии не передается</COMMENT>
+    <DATEBEG>01.11.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

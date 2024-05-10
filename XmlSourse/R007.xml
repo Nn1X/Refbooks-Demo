@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>GLSMO</type>
+    <version>2.0</version>
+    <date>15.12.2017</date>
+  </zglv>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Головная</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Филиал</Opis>
+    <DATEBEG>26.12.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>

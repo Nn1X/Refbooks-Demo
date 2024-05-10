@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>FORM</type>
+    <version>2.0</version>
+    <date>15.12.2017</date>
+  </zglv>
+  <zap>
+    <Kod>0</Kod>
+    <Opis>Не требует изготовления полиса</Opis>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>1</Kod>
+    <Opis>Бумажный полис ОМС</Opis>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>2</Kod>
+    <Opis>Электронный полис ОМС</Opis>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <Kod>3</Kod>
+    <Opis>Электронный полис ОМС в составе УЭК</Opis>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND/>
+  </zap>
+</packet>
